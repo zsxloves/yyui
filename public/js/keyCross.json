@@ -1,0 +1,86 @@
+
+{
+  "status": "ok",
+  "results":[
+    {
+        "id": "1",
+        "sys_code": "1",
+        "name": "T01 湘湖路与湘浦路路口",
+        "position": {
+            "longitude": 120.23652221961434,
+            "latitude": 30.155840282033296,
+            "height": 0
+        }
+    },
+    {
+        "id": "2",
+        "sys_code": "2",
+        "name": "T02 湘湖路与跨湖桥路路口",
+        "position": {
+            "longitude": 120.22207307473907,
+            "latitude": 30.146612477972507,
+            "height": 0
+        }
+    },
+    {
+        "id": "3",
+        "sys_code": "3",
+        "name": "T03 湘湖路与杨堤路口",
+        "position": {
+            "longitude": 120.21828518364178,
+            "latitude": 30.141263075758697,
+            "height": 0
+        }
+    },
+    {
+        "id": "4",
+        "sys_code": "4",
+        "name": "T04 湘湖路与眉山路路口",
+        "position": {
+            "longitude": 120.21229835976482,
+            "latitude": 30.132341115275498,
+            "height": 0
+        }
+    },
+    {
+        "id": "5",
+        "sys_code": "5",
+        "name": "T05 湘湖路与湘虎路路口",
+        "position": {
+            "longitude": 120.19280107371335,
+            "latitude": 30.12608430425808,
+            "height": 0
+        }
+    },
+    {
+        "id": "6",
+        "sys_code": "6",
+        "name": "T06 越王路与杨堤路口",
+        "position": {
+            "longitude": 120.21194010798814,
+            "latitude": 30.144434487804162,
+            "height": 0
+        }
+    },
+    {
+        "id": "7",
+        "sys_code": "7",
+        "name": "T07 越王路与湘浦路路口",
+        "position": {
+            "longitude": 120.23163131793783,
+            "latitude": 30.159850027459026,
+            "height": 0
+        }
+    },
+    {
+        "id": "8",
+        "sys_code": "8",
+        "name": "T08 湘湖路与时代大道路口",
+        "position": {
+            "longitude": 120.17692779355006,
+            "latitude": 30.123697276986878,
+            "height": 0
+        }
+    }
+  ]
+}

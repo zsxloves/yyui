@@ -1,0 +1,264 @@
+[
+  {
+    "show": true,
+    "component": "21",
+    "position": "left",
+    "title": "入住信息",
+    "code": "ruzhuxinxi",
+    "h": 13,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "22",
+    "position": "left",
+    "title": "重要活动",
+    "code": "zhongyaohuodong",
+    "h": 10,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "23",
+    "position": "left",
+    "title": "停车场信息",
+    "code": "tingchechang",
+    "h": 8,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "18",
+    "position": "left",
+    "title": "班车信息",
+    "code": "banchexinxi",
+    "h": 9,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "24",
+    "position": "left",
+    "title": "周边交通态势",
+    "code": "zhoubianjiaotong",
+    "h": 9,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "25",
+    "position": "right",
+    "title": "组织指挥",
+    "code": "zuzhizhihui",
+    "h": 15,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "14",
+    "position": "right",
+    "title": "安保力量",
+    "code": "anbaoziyuan",
+    "h": 9,
+    "popupContent": {
+      "code": "anbaoziyuan",
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -387rem",
+        "top": "50%",
+        "width": "774rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "安保资源信息",
+          "header": [
+            {
+              "title": "警种",
+              "w": 12
+            },
+            {
+              "title": "数量",
+              "w": 12
+            }
+          ],
+          "attrs": [
+            {
+              "key": "type",
+              "w": 12
+            },
+            {
+              "key": "count",
+              "w": 12
+            }
+          ]
+        },{
+          "title": "安保资源信息",
+          "header": [
+            {
+              "title": "警种",
+              "w": 12
+            },
+            {
+              "title": "数量",
+              "w": 12
+            }
+          ],
+          "attrs": [
+            {
+              "key": "type",
+              "w": 12
+            },
+            {
+              "key": "count",
+              "w": 12
+            }
+          ]
+        },{
+          "title": "安保资源信息",
+          "header": [
+            {
+              "title": "警种",
+              "w": 12
+            },
+            {
+              "title": "数量",
+              "w": 12
+            }
+          ],
+          "attrs": [
+            {
+              "key": "type",
+              "w": 12
+            },
+            {
+              "key": "count",
+              "w": 12
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "130",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "4",
+    "position": "right",
+    "title": "安检信息",
+    "code": "anjianxinxi",
+    "h":10,
+    "isClick": true,
+    "popupContent": {
+      "type": "table",
+      "style": {
+        "left": "360px",
+        "top": "100px",
+        "width": "660px",
+        "height": "600px"
+      },
+      "tableList": [
+        {
+          "title": "安检情况",
+          "header": ["安检口", "安检人数", "过包总数", "违禁包裹总数", "违禁品总数"
+          ],
+          "attrs": ["name", "passengerFlow", "totalPackage", "dangerousPackage", "dangerous"
+          ]
+        },
+        {
+          "title": "人员",
+          "header": ["通道名称", "正面照片", "背面照片", "体温"
+          ],
+          "attrs": ["assignAreaPath", "faceUrls", "bkgUrl", "gg"
+          ]
+        },
+        {
+          "title": "包裹",
+          "header": ["通道名称", "照片"
+          ],
+          "attrs": ["assignAreaPath", "packageImgUrls"
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "130",
+      "list": [
+        {
+          "name": "安检点位",
+          "num": 0,
+          "icon": "jianchazhan",
+          "color": "#0351f6",
+          "code": "ajdw",
+          "show": true,
+          "isClick": true
+        },
+        {
+          "name": "安检人数",
+          "num": 0,
+          "icon": "anjiandian",
+          "color": "#17c0ff",
+          "code": "ajrs",
+          "show": true,
+          "isClick": false
+        },
+        {
+          "name": "违禁包裹总数",
+          "num": 0,
+          "icon": "weijinbaoguo",
+          "color": "#ffdc2a",
+          "code": "wjbgzs",
+          "show": true,
+          "isClick": false
+        },
+        {
+          "name": "违禁品数量",
+          "num": 0,
+          "icon": "weijinpin",
+          "color": "#19fff1",
+          "code": "wjpzs",
+          "show": true,
+          "isClick": false
+        }
+      ]
+    }
+  },{
+    "show": true,
+    "component": "26",
+    "position": "right",
+    "title": "验证信息",
+    "code": "yanzhengxinxi",
+    "h": 8,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },{
+    "show": true,
+    "component": "27",
+    "position": "right",
+    "title": "疫情信息",
+    "code": "yiqingxinxi",
+    "h": 8,
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+    "code": 200,
+    "result": {
+        "result": {
+            "list": [
+                {
+                    "name": "西门安检点",
+                    "passengerFlow": 238,
+                    "dangerousPackage": 6,
+                    "dangerous": 9,
+                    "totalPackage": 255
+                },
+                {
+                    "name": "合计",
+                    "passengerFlow": 238,
+                    "dangerousPackage": 6,
+                    "dangerous": 9,
+                    "totalPackage": 255
+                }
+            ]
+        }
+    }
+}

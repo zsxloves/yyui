@@ -1,0 +1,109 @@
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable length-zero-no-unit */
+.the-table-module {
+  position: relative;
+  width: 385rem;
+  height: 735rem;
+  margin: 0 auto;
+  // padding-left: 20rem !important;
+  .worker-img-box {
+    display: flex;
+    justify-content: right;
+    width: 350rem;
+    height: 80rem;
+    margin: 0 auto;
+    background-size: 100% !important;
+    .worker-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 240rem;
+      height: 80rem;
+      padding-top: 10rem;
+    }
+    .worker-text-box {
+      color: #b2c4de;
+      font-size: 16rem;
+    }
+    .worker-num-box {
+      font-weight: 700;
+      font-size: 30rem;
+      background-image: -webkit-gradient(linear, left 0, right 0, from(#2da3ff), to(#00fcfd));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .facility-list-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 385rem;
+    height: 190rem;
+    margin-top: 10rem;
+
+    .facility-list {
+      width: 168rem;
+      height: 53rem;
+      margin: auto;
+      // background: no-repeat center;
+      background-repeat: no-repeat;
+      background-size: 100% 100% !important;
+      .facility-user-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100% !important;
+        .name-box {
+          color: #dee8f6;
+          font-weight: normal;
+          font-size: 14rem;
+          font-family: MicrosoftYaHei;
+          font-stretch: normal;
+          letter-spacing: 0rem;
+        }
+
+        .text-box {
+          color: #ffc946;
+          font-weight: normal;
+          font-size: 24rem;
+          font-family: DIN-Bold;
+          font-stretch: normal;
+          line-height: 30rem;
+          letter-spacing: 0rem;
+        }
+      }
+    }
+  }
+  .title-p {
+    margin-left: 20rem;
+    color: #26f6f4;
+    font-size: 14rem;
+    font-family: MicrosoftYaHei;
+  }
+  .areadata-box {
+    display: flex;
+    justify-content: space-between;
+    width: 385rem;
+    height: 80rem;
+    div {
+      width: 115rem;
+      height: 65rem;
+      padding-top: 8rem;
+      text-align: center;
+      background: url(../../image/dangerous.png) no-repeat 100%;
+      p {
+        color: #c0cbd9;
+        font-size: 14rem;
+      }
+      span {
+        color: #ffc946;
+        font-weight: 500;
+        font-size: 24rem;
+        font-family: MicrosoftYaHei-Bold;
+      }
+    }
+  }
+}

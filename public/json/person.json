@@ -1,0 +1,44 @@
+{
+    "code": 200,
+    "result": {
+        "result": {
+            "list": [
+                {
+                    "assignAreaPath": "西门安检点",
+                        "faceUrls": ["r1"],
+                        "bkgUrl": ["r3"],
+                        "temperature": 36.6
+                },{
+                    "assignAreaPath": "西门安检点",
+                    "faceUrls": ["r2"],
+                    "bkgUrl": ["r5"],
+                        "temperature": 36.4,
+                        "totalPackage": 36.4
+                },{
+                    "assignAreaPath": "西门安检点",
+                    "faceUrls": ["r4"],
+                    "bkgUrl": ["r6"],
+                        "temperature": 36.4,
+                        "totalPackage": 36.4
+                },{
+                    "assignAreaPath": "西门安检点",
+                        "faceUrls": ["r1"],
+                        "bkgUrl": ["r3"],
+                        "temperature": 36.6
+                },{
+                    "assignAreaPath": "西门安检点",
+                    "faceUrls": ["r2"],
+                    "bkgUrl": ["r5"],
+                        "temperature": 35.5,
+                        "totalPackage": 36.4
+                },{
+                    "assignAreaPath": "西门安检点",
+                    "faceUrls": ["r4"],
+                    "bkgUrl": ["r6"],
+                        "temperature": 35.9,
+                        "totalPackage": 36.4
+                }
+            ]
+        }
+    }
+}

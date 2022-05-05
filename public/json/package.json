@@ -1,0 +1,44 @@
+{
+    "code": 200,
+    "result": {
+        "result": {
+            "list": [
+                {
+                    "assignAreaPath": "西门安检点",
+                    "packageImgUrls": [
+                        "p1"
+                    ]
+                },
+                {
+                    "assignAreaPath": "西门安检点",
+                    "packageImgUrls": [
+                        "p2"
+                    ]
+                },
+                {
+                    "assignAreaPath": "西门安检点",
+                    "packageImgUrls": [
+                        "p3"
+                    ]
+                },{
+                    "assignAreaPath": "西门安检点",
+                    "packageImgUrls": [
+                        "p1"
+                    ]
+                },
+                {
+                    "assignAreaPath": "西门安检点",
+                    "packageImgUrls": [
+                        "p2"
+                    ]
+                },
+                {
+                    "assignAreaPath": "西门安检点",
+                    "packageImgUrls": [
+                        "p3"
+                    ]
+                }
+            ]
+        }
+    }
+}

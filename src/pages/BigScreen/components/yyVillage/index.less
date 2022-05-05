@@ -1,0 +1,863 @@
+/* stylelint-disable declaration-block-no-duplicate-properties */
+.warningList {
+  width: 1060rem;
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -530rem;
+  z-index: 3;
+  justify-content: space-between;
+
+  .warningItem {
+    width: 16.66%;
+    height: 74rem;
+    background: url('/img/imgNew/topwaringbg.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    color: #fff;
+
+    .text {
+      width: 100%;
+      font-family: MicrosoftYaHei;
+      font-size: 14rem;
+      font-weight: normal;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      line-height: 14rem;
+      color: #ffffff;
+      padding: 10rem 0 0 20rem;
+    }
+
+    .num {
+      width: 100%;
+      text-shadow: 2px 2px #225fd5;
+      padding: 6rem 0 0 20rem;
+      font-family: "shuziFont";
+      ;
+      font-size: 24rem;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 24rem;
+      letter-spacing: 0px;
+      color: #ffffff;
+    }
+  }
+}
+
+.topWeather {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 50px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.moduleWrapStyle {
+  width: 100%;
+  margin: 0 auto 0;
+
+  .firstTbcontent {
+    height: 180rem;
+    width: 100%;
+    margin: 2% auto;
+    width: 92.4%;
+    overflow: hidden;
+
+    .firstTb>div:nth-child(1)>div,
+    .firstTb>div:nth-child(2)>div>div {
+      padding: 0 0 0 2rem !important;
+    }
+
+    .firstTb span,
+    .firstTb div,
+    .secondTb span,
+    .secondTb div,
+    .threeTb span,
+    .threeTb div,
+    .fourTb span,
+    .fourTb div,
+    .fiveTb span,
+    .fiveTb div {
+      font-size: 13rem !important;
+      color: #dfe75d;
+    }
+  }
+
+  .matchAnbao {
+    display: flex;
+    width: 100%;
+    margin: 22px auto 0;
+
+    .item {
+      width: 33.33%;
+      text-align: center;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 14px;
+      letter-spacing: 1px;
+      color: #e3efff;
+
+      .bg {
+        width: 72rem;
+        height: 28px;
+        background: url('/img/imageNew/yyVillage/matchbg.png') no-repeat 0 0;
+        background-size: 100% 100%;
+        margin: 0 auto;
+      }
+
+      .num {
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .keyActivity {
+    width: 100%;
+    margin: 14px auto 0;
+    position: relative;
+
+    .select {
+      position: absolute;
+      right: 4px;
+      top: -40px;
+
+      :global {
+        .ant-select {
+          color: #fff;
+          font-size: 12px;
+        }
+
+        .ant-select-selector {
+          padding: 0 11px;
+          background: url('/img/imageNew/bgs.png') no-repeat 0 0;
+          background-size: 100% 100%;
+          border: none !important;
+
+          // .ant-select-selection-search {
+          //     right: 25px;
+          // }
+          input {
+            height: 22px;
+            line-height: 22px;
+          }
+
+          .ant-select-selection-item {
+            padding-right: 18px;
+            line-height: 22px;
+          }
+        }
+
+        .ant-select-arrow {
+          top: 9px;
+          right: 10px;
+          width: 12px;
+          height: 12px;
+          margin-top: -6px;
+
+          svg {
+            width: 12px;
+            height: 12px;
+          }
+        }
+
+        .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+          height: 22px;
+          line-height: 22px;
+        }
+      }
+    }
+
+    .center {
+      width: 98%;
+      margin: 0 auto;
+      height: 42px;
+      background: url('/img/imageNew/yyVillage/fangkbg2.png');
+      background-size: 100% 100%;
+      display: flex;
+      line-height: 42px;
+      font-size: 14px;
+      color: #fff146;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+
+      .name {
+        width: 25%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    .title {
+      width: 96%;
+      height: 34px;
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      line-height: 34px;
+      margin: 0 auto 0;
+
+      .name1 {
+        width: 35%;
+        padding-left: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .name2 {
+        width: 15%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .name3 {
+        width: 20%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .name4 {
+        width: 30%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    .item {
+      width: 96%;
+      height: 34px;
+      margin: 0 auto;
+      display: flex;
+      line-height: 34px;
+      font-size: 14px;
+
+      &:nth-child(odd) {
+        background: url(/img/imageNew/bg1.png) 0px 0px no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &:nth-child(even) {
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      .name1 {
+        width: 35%;
+        padding-left: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .name2 {
+        width: 15%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .name3 {
+        width: 20%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .name4 {
+        width: 30%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .parkingLot {
+    width: 100%;
+    margin: 4px auto 0;
+    position: relative;
+
+    .select {
+      position: absolute;
+      right: 4px;
+      top: -24px;
+      display: flex;
+
+      .color {
+        width: 12px;
+        height: 12px;
+        background-color: #fff146;
+        margin-right: 10px;
+      }
+
+      .text {
+        font-size: 14px;
+        line-height: 12px;
+        color: #e3efff;
+      }
+    }
+
+    .chenckLineb {
+      width: 100%;
+      display: flex;
+      margin: 8px auto 0;
+      height: 55px;
+      justify-content: space-between;
+
+      .checkli {
+        width: 50%;
+        height: 100%;
+        color: #fff;
+        display: flex;
+
+        .img {
+          width: 48px;
+          height: 48px;
+          display: block;
+          background: url('/img/imageNew/yyVillage/quan1.png') no-repeat center;
+          background-size: 100% 100%;
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+          line-height: 48px;
+        }
+
+        .checkNumBox {
+          width: 70%;
+          padding-left: 8px;
+          line-height: 48px;
+          font-size: 14px;
+          color: #7e8194;
+
+          .num1 {
+            font-size: 22px;
+            color: #e4ff46;
+          }
+
+          .num2 {
+            font-size: 22px;
+            color: #fff;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .epidemicPrevention {
+    width: 100%;
+    margin: 8px auto 0;
+    position: relative;
+
+    .select {
+      position: absolute;
+      right: 4px;
+      top: -34px;
+
+      :global {
+        .ant-select {
+          color: #fff;
+          font-size: 12px;
+        }
+
+        .ant-select-selector {
+          padding: 0 11px;
+          background: url('/img/imgNew/selectbg.png') no-repeat 0 0;
+          background-size: 100% 100%;
+          border: none !important;
+
+          // .ant-select-selection-search {
+          //     right: 25px;
+          // }
+          input {
+            height: 22px;
+            line-height: 22px;
+          }
+
+          .ant-select-selection-item {
+            padding-right: 18px;
+            line-height: 22px;
+          }
+        }
+
+        .ant-select-arrow {
+          top: 9px;
+          right: 10px;
+          width: 12px;
+          height: 12px;
+          margin-top: -6px;
+
+          svg {
+            width: 12px;
+            height: 12px;
+          }
+        }
+
+        .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+          height: 22px;
+          line-height: 22px;
+        }
+      }
+    }
+
+    .chenckLineb {
+      width: 96%;
+      display: flex;
+      margin: 14px auto 0;
+      height: 55px;
+      justify-content: space-between;
+
+      .checkli {
+        width: 50%;
+        height: 100%;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        .img {
+          width: 79px;
+          height: 80px;
+          display: block;
+        }
+
+        .checkNumBox {
+          width: 70%;
+          padding-left: 8px;
+
+          .line {
+            width: 56px;
+            height: 2px;
+            background-color: #35bdec;
+          }
+
+          .num {
+            font-size: 22px;
+            line-height: 22px;
+            padding-bottom: 7px;
+            padding-top: 18px;
+            color: #fff;
+          }
+
+          .text {
+            font-size: 12px;
+            line-height: 12px;
+            padding-top: 10px;
+            color: #b2c4de;
+          }
+        }
+      }
+    }
+  }
+
+  .checkIn {
+    width: 100%;
+    margin: 18px auto 0;
+
+    .box {
+      width: 98%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+
+      .item {
+        width: 48%;
+        height: 35px;
+        display: flex;
+        background: url('/img/imageNew/yyVillage/fangkbg.png') no-repeat center;
+        background-size: 100% 100%;
+        line-height: 34px;
+        margin-bottom: 8px;
+
+        .name {
+          width: 64%;
+          font-family: MicrosoftYaHei;
+          font-size: 12px;
+          font-weight: normal;
+          font-stretch: normal;
+          letter-spacing: 1px;
+          color: #e3efff;
+          padding-left: 11px;
+
+          .red {
+            width: 12px;
+            height: 12px;
+            background-color: #b51212;
+            display: inline-block;
+            position: relative;
+            top: 2px;
+            margin-left: 6px;
+          }
+
+          .yello {
+            width: 12px;
+            height: 12px;
+            background-color: #ccd311;
+            display: inline-block;
+            position: relative;
+            top: 2px;
+            margin-left: 6px;
+          }
+        }
+
+        .num {
+          width: 36%;
+          font-family: DINPro-Regular;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          letter-spacing: 0px;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .center {
+      width: 98%;
+      margin: 10 auto 0;
+      height: 42px;
+      background: url('/img/imageNew/yyVillage/fangkbg2.png');
+      background-size: 100% 100%;
+      display: flex;
+      line-height: 42px;
+      display: flex;
+      justify-content: space-between;
+
+      .mj {
+        width: 22px;
+        height: 22px;
+        background: url('/img/imageNew/yyVillage/minjing.png');
+        background-size: 100% 100%;
+        display: block;
+        margin-left: 20px;
+        position: relative;
+        top: 10px;
+      }
+
+      .name {
+        font-size: 16px;
+        color: #26f6f4;
+        width: 52%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .num {
+        font-size: 16px;
+        color: #26f6f4;
+        margin-right: 14px;
+      }
+    }
+
+    .chenckLineb {
+      width: 100%;
+      display: flex;
+      margin: 9px auto 0;
+      height: 55px;
+      justify-content: space-between;
+
+      .checkli {
+        width: 33.33%;
+        height: 100%;
+        color: #fff;
+        display: flex;
+
+        .img {
+          width: 41px;
+          height: 52px;
+          display: block;
+        }
+
+        .checkNumBox {
+          width: 70%;
+          padding-left: 8px;
+
+          .num {
+            font-size: 18px;
+            line-height: 18px;
+            padding-top: 10px;
+          }
+
+          .text {
+            font-size: 14px;
+            line-height: 14px;
+            padding-top: 5px;
+            color: #5f92dc;
+          }
+        }
+      }
+    }
+  }
+
+  .organizational {
+    width: 100%;
+    margin: 14px auto 0;
+
+    .box {
+      display: flex;
+      width: 92%;
+      margin: 0 auto;
+      justify-content: space-between;
+
+      .item {
+        width: 44%;
+
+        .itemt {
+          width: 100%;
+          display: flex;
+
+          .icon {
+            width: 44px;
+            height: 44px;
+            display: block;
+          }
+
+          .person {
+            width: 70%;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 14px;
+            letter-spacing: 0px;
+            color: #ffffff;
+
+            .p1 {
+              padding: 4px 0 8px 6px;
+            }
+
+            .p2 {
+              padding: 0 0 0 6px;
+            }
+          }
+        }
+
+        .text {
+          width: 100%;
+          height: 26px;
+          padding-left: 8px;
+          background: url('/img/imageNew/yyVillage/obg1.png') no-repeat 0 0;
+          background-size: 100% 100%;
+          text-align: left;
+          line-height: 26px;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          letter-spacing: 0px;
+          color: #23caff;
+          margin: 5px auto 0;
+        }
+      }
+    }
+
+    .list {
+      width: 92%;
+      margin: 16px auto 0;
+
+      .item {
+        width: 100%;
+        position: relative;
+        margin-bottom: 5px;
+
+        .line {
+          width: 100%;
+          height: 36px;
+          background: url('/img/imageNew/yyVillage/obg2.png') no-repeat 0 0;
+          background-size: 100% 100%;
+          line-height: 36px;
+          display: flex;
+
+          .lineTeam {
+            width: 35%;
+            height: 100%;
+            // background: url('/img/imageNew/bg4.png') no-repeat 0 0;
+            // background-size: 100% 100%;
+            font-size: 12px;
+            color: #fff;
+            padding-left: 20px;
+          }
+
+          .lineName {
+            // padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .smallTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    .item {
+      padding: 0 10px;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 36px;
+      letter-spacing: 1px;
+      color: #e3efff;
+      line-height: 22px;
+      height: 22px;
+      background: url('/img/imgNew/tabbg1.png') no-repeat center;
+      background-size: 100% 100%;
+      cursor: pointer;
+    }
+
+    .active {
+      color: #56d5ff;
+      background: url('/img/imgNew/tabbg2.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+  }
+
+  .controlChart {
+    width: 99%;
+    margin: 21px auto 0;
+
+    .item {
+      width: 100%;
+      height: 105px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .trafficSituation {
+    .title {
+      .item {
+        width: 99%;
+        height: 34px;
+        margin: 0 auto;
+        display: flex;
+        line-height: 34px;
+        font-size: 12px;
+
+        .name1 {
+          width: 20%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .name2 {
+          width: 38%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+
+          :global {
+            .ant-progress-steps-item {
+              width: 38px !important;
+            }
+          }
+        }
+
+        .name3 {
+          width: 12%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .name4 {
+          width: 18%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .name5 {
+          width: 12%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .box {
+
+      .item {
+        width: 99%;
+        height: 34px;
+        margin: 0 auto;
+        display: flex;
+        line-height: 34px;
+        font-size: 12px;
+
+        .name1 {
+          width: 20%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .name21 {
+          width: 38%;
+          position: relative;
+          padding-left: 4px;
+
+          .img {
+            width: 94%;
+            height: 10px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -4px;
+          }
+        }
+
+        .name22 {
+          width: 38%;
+          position: relative;
+          padding-left: 4px;
+
+          .img {
+            width: 94%;
+            height: 10px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -4px;
+          }
+        }
+
+        .name3 {
+          width: 12%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .name4 {
+          width: 18%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .name5 {
+          width: 12%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

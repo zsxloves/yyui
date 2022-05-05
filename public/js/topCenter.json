@@ -1,0 +1,113 @@
+[
+  {
+    "show": true,
+    "orderIndex": 1,
+    "title": "重点封控",
+    "code": "zdfk",
+    "icon": "zdfk1",
+    "checked": true
+  },
+  {
+    "show": true,
+    "orderIndex": 2,
+    "title": "分区管控",
+    "code": "fqgk",
+    "icon": "fqgk",
+    "checked": false
+  },
+  {
+    "show": true,
+    "orderIndex": 3,
+    "title": "现场管控",
+    "code": "xcgk",
+    "icon": "xcgk",
+    "checked": false
+  },
+  {
+    "show": true,
+    "orderIndex": 4,
+    "title": "人车流线",
+    "code": "rclx",
+    "icon": "rclx",
+    "checked": false,
+    "children": [
+      {
+        "show": true,
+        "orderIndex": 1,
+        "parentCode": "rclx",
+        "title": "免检车辆",
+        "code": "mjcl",
+        "icon": "mjcl1",
+        "checked": true
+      },
+      {
+        "show": true,
+        "orderIndex": 1,
+        "parentCode": "rclx",
+        "title": "地面安检车辆",
+        "code": "dmajcl",
+        "icon": "dmajcl",
+        "checked": false
+      },
+      {
+        "show": true,
+        "orderIndex": 1,
+        "parentCode": "rclx",
+        "title": "地下安检车辆",
+        "code": "dxajcl",
+        "icon": "dxajcl",
+        "checked": false
+      },{
+        "show": true,
+        "orderIndex": 1,
+        "parentCode": "rclx",
+        "title": "其他人员",
+        "code": "qtry",
+        "icon": "qtry",
+        "checked": false
+      },{
+        "show": true,
+        "orderIndex": 1,
+        "parentCode": "rclx",
+        "title": "前院流线",
+        "code": "qylx",
+        "icon": "qylx",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "show": true,
+    "orderIndex": 5,
+    "title": "防爆安检",
+    "code": "fbaj",
+    "icon": "fbaj",
+    "checked": false
+  },
+  {
+    "show": true,
+    "orderIndex": 6,
+    "title": "应急处突",
+    "code": "yjct",
+    "icon": "yjct",
+    "checked": false
+  },
+  {
+    "show": true,
+    "orderIndex": 7,
+    "title": "交通保障",
+    "code": "jtbz",
+    "icon": "jtbz",
+    "checked": false
+  },
+  {
+    "show": true,
+    "orderIndex": 8,
+    "title": "消防管理",
+    "code": "xfgl",
+    "icon": "xfgl",
+    "checked": false
+  }
+
+
+]

@@ -1,0 +1,673 @@
+[
+  {
+    "show": true,
+    "component": "19",
+    "position": "left",
+    "title": "组织架构",
+    "code": "zuzhijiagou",
+    "h": 16,
+    "isClick": true,
+    "popupContent": {
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -387rem",
+        "top": "50%",
+        "width": "774rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "组织架构",
+          "header": [
+            {
+              "title": "岗位",
+              "w": 8
+            },
+            {
+              "title": "部门",
+              "w": 8
+            },
+            {
+              "title": "姓名",
+              "w": 8
+            }
+          ],
+          "attrs": [
+            {
+              "key": "job",
+              "w": 8
+            },
+            {
+              "key": "dept",
+              "w": 8
+            },
+            {
+              "key": "user",
+              "w": 8
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "258",
+      "list": []
+    }
+  },
+  {
+    "show": true,
+    "component": "20",
+    "position": "left",
+    "title": "活动流程",
+    "code": "huodongliucheng",
+    "h": 12,
+    "isClick": true,
+    "popupContent": {
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -387rem",
+        "top": "50%",
+        "width": "774rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "活动流程",
+          "header": [
+            {
+              "title": "流程名称",
+              "w": 8
+            },
+            {
+              "title": "开始时间",
+              "w": 5
+            },
+            {
+              "title": "结束时间",
+              "w": 5
+            },
+            {
+              "title": "持续时间",
+              "w": 6
+            }
+          ],
+          "attrs": [
+            {
+              "key": "name",
+              "w": 8
+            },
+            {
+              "key": "startTime",
+              "w": 5
+            },
+            {
+              "key": "endTime",
+              "w": 5
+            },
+            {
+              "key": "sjc",
+              "w": 6,
+              "type":"sjc"
+            }
+          ]
+        },
+        {
+          "title": "活动子流程",
+          "header": [
+            {
+              "title": "子流程名称",
+              "w": 8
+            },
+            {
+              "title": "开始时间",
+              "w": 5
+            },
+            {
+              "title": "结束时间",
+              "w": 5
+            },
+            {
+              "title": "持续时间",
+              "w": 6
+            }
+          ],
+          "attrs": [
+            {
+              "key": "name",
+              "w": 8
+            },
+            {
+              "key": "startTime",
+              "w": 5
+            },
+            {
+              "key": "endTime",
+              "w": 5
+            },
+            {
+              "key": "sjc",
+              "w": 6,
+              "type":"sjc"
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "178",
+      "list": []
+    }
+  },
+  {
+    "show": true,
+    "component": "28",
+    "position": "left",
+    "title": "安保工作流程",
+    "code": "abgongzuoliucheng",
+    "h": 13,
+    "isClick": true,
+    "popupContent": {
+      "code": "abgongzuoliucheng",
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -387rem",
+        "top": "50%",
+        "width": "774rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "安保工作流程",
+          "header": [
+            {
+              "title": "时间",
+              "w": 6
+            },
+            {
+              "title": "任务",
+              "w": 8
+            },
+            {
+              "title": "地点",
+              "w": 6
+            },
+            {
+              "title": "操作",
+              "w": 4
+            }
+          ],
+          "attrs": [
+            {
+              "key": "starttime",
+              "w": 6
+            },
+            {
+              "key": "name",
+              "w": 8
+            },
+            {
+              "key": "endtime",
+              "w": 6,
+              "isClick": true,
+              "type":"map"
+            },
+            {
+              "key": "operationCZ",
+              "w": 4,
+              "isClick": true,
+              "type":"operation"
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "210",
+      "list": []
+    }
+  },
+  {
+    "show": true,
+    "component": "14",
+    "position": "left",
+    "title": "安保资源信息",
+    "code": "anbaoziyuan",
+    "h": 9,
+    "popupContent": {
+      "code": "anbaoziyuan",
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -387rem",
+        "top": "50%",
+        "width": "774rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "民警",
+          "header": [
+            {
+              "title": "警种",
+              "w": 12
+            },
+            {
+              "title": "数量",
+              "w": 12
+            }
+          ],
+          "attrs": [
+            {
+              "key": "type",
+              "w": 12
+            },
+            {
+              "key": "num",
+              "w": 12
+            }
+          ]
+        },{
+          "title": "辅警",
+          "header": [
+            {
+              "title": "警种",
+              "w": 12
+            },
+            {
+              "title": "数量",
+              "w": 12
+            }
+          ],
+          "attrs": [
+            {
+              "key": "type",
+              "w": 12
+            },
+            {
+              "key": "num",
+              "w": 12
+            }
+          ]
+        },{
+          "title": "保安",
+          "header": [
+            {
+              "title": "配属警种和分局",
+              "w": 12
+            },
+            {
+              "title": "数量",
+              "w": 12
+            }
+          ],
+          "attrs": [
+            {
+              "key": "type",
+              "w": 12
+            },
+            {
+              "key": "num",
+              "w": 12
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "130",
+      "list": []
+    }
+  },
+  {
+    "show": true,
+    "component": "15",
+    "position": "right",
+    "title": "票证信息",
+    "code": "piaozhengxinxi",
+    "h": 13,
+    "isClick": true,
+    "popupContent": {
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -387rem",
+        "top": "50%",
+        "width": "774rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "检票信息",
+          "header": [
+            {
+              "title": "检票时间",
+              "w": 5
+            },
+            {
+              "title": "检票通道",
+              "w": 5
+            },
+            {
+              "title": "姓名",
+              "w": 3
+            },
+            {
+              "title": "身份证号",
+              "w": 6
+            },
+            {
+              "title": "座位号",
+              "w": 3
+            },
+            {
+              "title": "照片",
+              "w": 2
+            }
+          ],
+          "attrs": [
+            {
+              "key": "time",
+              "w": 5
+            },
+            {
+              "key": "tunnel",
+              "w": 5
+            },
+            {
+              "key": "name",
+              "w": 3
+            },
+            {
+              "key": "idNumber",
+              "w": 6
+            },
+            {
+              "key": "seat",
+              "w": 3
+            },
+            {
+              "key": "pic",
+              "w": 2,
+              "type":"img",
+              "isClick":true
+            }
+          ]
+        },{
+          "title": "验证信息",
+          "header": [
+            {
+              "title": "验证时间",
+              "w": 5
+            },
+            {
+              "title": "验证通道",
+              "w": 5
+            },
+            {
+              "title": "姓名",
+              "w": 3
+            },
+            {
+              "title": "证件号",
+              "w": 6
+            },
+            {
+              "title": "座位号",
+              "w": 3
+            },
+            {
+              "title": "照片",
+              "w": 2
+            }
+          ],
+          "attrs": [
+            {
+              "key": "time",
+              "w": 5
+            },
+            {
+              "key": "tunnel",
+              "w": 5
+            },
+            {
+              "key": "name",
+              "w": 3
+            },
+            {
+              "key": "idNumber",
+              "w": 6
+            },
+            {
+              "key": "seat",
+              "w": 3
+            },
+            {
+              "key": "pic",
+              "w": 2,
+              "type":"img",
+              "isClick":true
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "200",
+      "list": []
+    }
+  },
+  {
+    "show": true,
+    "component": "16",
+    "position": "right",
+    "title": "安检信息",
+    "code": "anjianxinxikbms",
+    "h": 10,
+    "isClick": true,
+    "popupContent": {
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -387rem",
+        "top": "50%",
+        "width": "774rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "安检信息",
+          "header": [
+            {
+              "title": "通道名称",
+              "w": 6
+            },
+            {
+              "title": "安检人员数",
+              "w": 6
+            },
+            {
+              "title": "安检物品",
+              "w": 6
+            },
+            {
+              "title": "违禁物品数",
+              "w": 6
+            }
+          ],
+          "attrs": [
+            {
+              "key": "name",
+              "w": 6
+            },
+            {
+              "key": "people",
+              "w": 6
+            },
+            {
+              "key": "items",
+              "w": 6
+            },
+            {
+              "key": "contraband",
+              "w": 6
+            }
+          ]
+        },{
+          "title": "违禁物品",
+          "header": [
+            {
+              "title": "通道名称",
+              "w": 6
+            },
+            {
+              "title": "安检时间",
+              "w": 6
+            },
+            {
+              "title": "违禁物品类型",
+              "w": 6
+            },
+            {
+              "title": "违禁物品图片",
+              "w": 6
+            }
+          ],
+          "attrs": [
+            {
+              "key": "tunnel",
+              "w": 6
+            },
+            {
+              "key": "time",
+              "w": 6
+            },
+            {
+              "key": "type",
+              "w": 6
+            },
+            {
+              "key": "pic",
+              "w": 6,
+              "type":"img",
+              "isClick":true
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "145",
+      "list": []
+    }
+  },
+  {
+    "show": true,
+    "component": "17",
+    "position": "right",
+    "title": "地铁客流信息",
+    "code": "ditiekeliu",
+    "h": 17,
+    "dataConfig": {
+      "height": "290",
+      "list": []
+    }
+  },
+  {
+    "show": true,
+    "component": "18",
+    "position": "right",
+    "title": "班车调度信息",
+    "code": "banchediaodu",
+    "h": 10,
+    "isClick": true,
+    "popupContent": {
+      "type": "table",
+      "style": {
+        "left": "50%",
+        "margin": "-200rem 0 0 -500rem",
+        "top": "50%",
+        "width": "1000rem",
+        "height": "400rem"
+      },
+      "subscript": 0,
+      "tableList": [
+        {
+          "title": "班车调度信息",
+          "header": [
+            {
+              "title": "班次",
+              "w": 2
+            },
+            {
+              "title": "发车时间",
+              "w": 4
+            },
+            {
+              "title": "到达时间",
+              "w": 4
+            },
+            {
+              "title": "出发地",
+              "w": 4
+            },
+            {
+              "title": "目的地",
+              "w": 4
+            },
+            {
+              "title": "车上人数",
+              "w": 2
+            },
+            {
+              "title": "当前位置",
+              "w": 4
+            }
+          ],
+          "attrs": [
+            {
+              "key": "id",
+              "w": 2
+            },
+            {
+              "key": "departureTime",
+              "w": 4
+            },
+            {
+              "key": "arriveTime",
+              "w": 4
+            },
+            {
+              "key": "departureFrom",
+              "w": 4
+            },
+            {
+              "key": "destination",
+              "w": 4
+            },
+            {
+              "key": "people",
+              "w": 2
+            },
+            {
+              "key": "currentLocation",
+              "w": 4
+            }
+          ]
+        }
+      ]
+    },
+    "dataConfig": {
+      "height": "150",
+      "list": []
+    }
+  }
+]

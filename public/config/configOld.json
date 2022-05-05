@@ -1,0 +1,1979 @@
+﻿{
+    "serverURL": "",
+    "map3d": {
+        "homeButton": false,
+        "sceneModePicker": false,
+        "navigationHelpButton": false,
+        "infoBox": false,
+        "vrButton": false,
+        "fullscreenButton": false,
+        "geocoder": false,
+        "center": {
+            "hasAnimation": false,
+            "x": 120.452964,
+            "y": 30.190522,
+            "z": 3000,
+            "heading": 0.0,
+            "pitch": -89.0,
+            "roll": 0.0
+        },
+        "minzoom": 1,
+        "maxzoom": 50000000,
+        "copyright": false,
+        "style": {
+            "atmosphere": true,
+            "lighting": false,
+            "fog": false,
+            "testTerrain": false
+        },
+        "controls": [
+            {
+                "type": "location",
+                "crs": ""
+            },
+            {
+                "type": "mousezoom"
+            }
+        ],
+        "basemaps": [],
+        "operationallayers": [
+            {
+                "id": 10,
+                "name": "地图",
+                "type": "group"
+            },
+            {
+                "id": 1010,
+                "pid": 10,
+                "name": "影像",
+                "type": "group"
+            },
+            {
+                "pid": 1010,
+                "type": "gcj02",
+                "name": "夜景地图",
+                "url": "http://20.0.6.182/Tiles/arcgis_blue/zhejiang/{z}/{x}/{y}.png",
+                "hasOpacity": true,
+                "order": 0,
+                "visible": false
+            },
+            {
+                "pid": 1010,
+                "name": "卫星影像(瓜沥)",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "http://20.0.6.182/Tiles/arcgis/{z}/{x}/{y}.png",
+                "order": 0,
+                "maximumLevel": 19,
+                "visible": false
+            },
+            {
+                "pid": 1010,
+                "name": "卫星影像(亚运)",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                "crs": "3857",
+                "order": 1,
+                "maximumLevel": 20,
+                "visible": true
+            },
+            {
+                "pid": 1010,
+                "name": "亚运村影像",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "http://20.0.6.182/Tiles/yayuncunzhengshe/{z}/{y}/{x}.png",
+                "visible": true
+            },
+            {
+                "pid": 1010,
+                "name": "奥体中心影像",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "http://20.0.6.182/Tiles/aoti/zhengshe/{z}/{y}/{x}.png",
+                "visible": true
+            },
+            {
+                "pid": 1010,
+                "name": "瓜沥影像",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "http://20.0.6.182/Tiles/gualizhengshe/{z}/{y}/{x}.png",
+                "order": 1,
+                "maximumLevel": 19,
+                "visible": false
+            },
+            {
+                "pid": 1010,
+                "name": "瓜沥建筑物",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "http://20.0.6.182/Tiles/arcgis_jianzhuwu/{z}/{y}/{x}.png",
+                "order": 2,
+                "maximumLevel": 19,
+                "visible": false
+            },
+            {
+                "pid": 1010,
+                "name": "瓜沥路网",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "http://20.0.6.182/Tiles/arcgis_luwang/{z}/{y}/{x}.png",
+                "order": 3,
+                "maximumLevel": 19,
+                "visible": false
+            },
+            {
+                "pid": "1010",
+                "type": "3dtiles",
+                "name": "萧山影像",
+                "url": "http://41.200.12.150:8090/iserver/services/map-agscache-Layers9/rest/maps/Layers/tilesets.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "pid": 1010,
+                "name": "观潮正摄",
+                "icon": "img/basemaps/google_img.png",
+                "type": "xyz",
+                "url": "http://20.0.6.182/Tiles/guanchaov2/{z}/{y}/{x}.png",
+                "visible": true
+            },
+            {
+                "id": 20,
+                "name": "模型",
+                "type": "group"
+            },
+            {
+                "id": "XHJQ",
+                "pid": 20,
+                "name": "湘湖景区",
+                "type": "group"
+            },
+            {
+                "id": "XSQZF",
+                "pid": 20,
+                "name": "区政府倾斜",
+                "type": "group"
+            },
+            {
+                "pid": "XHJQ",
+                "type": "3dtiles",
+                "name": "湘湖景区倾斜",
+                "url": "http://20.0.6.182/3DXianghu/XianghuV3/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+            {
+                "pid": "XSQZF",
+                "type": "3dtiles",
+                "name": "萧山区政府倾斜",
+                "url": "http://20.0.6.182/Tiles/quzhengfu/qzf/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+            {
+                "pid": "XSQZF",
+                "type": "3dtiles",
+                "name": "萧山区社会矛盾调解中心倾斜",
+                "url": "http://20.0.6.182/Tiles/quzhengfu/shmdtjzx/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+            {
+                "pid": "XSQZF",
+                "type": "3dtiles",
+                "name": "金马饭店南站倾斜",
+                "url": "http://20.0.6.182/Tiles/quzhengfu/jmfdnz/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "pid": "ZSD",
+                "type": "3dtiles",
+                "name": "浙江师范大学倾斜",
+                "url": "http://20.0.6.182/Tiles/zheshida/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "pid": "FSC",
+                "type": "3dtiles",
+                "name": "戴村佛山景区",
+                "url": "http://20.0.6.182/Tiles/佛山村v3/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "pid": "HTC",
+                "type": "3dtiles",
+                "name": "进化欢潭景区",
+                "url": "http://20.0.6.182/Tiles/欢潭村v3/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "pid": "ATYXC",
+                "type": "3dtiles",
+                "name": "奥体印象城",
+                "url": "http://20.0.6.182/Tiles/印象城/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+{
+                "pid": "DCSC",
+                "type": "3dtiles",
+                "name": "戴村沈村",
+                "url": "http://20.0.6.182/Tiles/沈村/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "pid": "YQFHC",
+                "type": "3dtiles",
+                "name": "衙前凤凰村",
+                "url": "http://20.0.6.182/Tiles/凤凰村v3/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "id": "HYC",
+                "type": "3dtiles",
+                "name": "横一村",
+                "url": "http://20.0.6.182/Tiles/横一村V3/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "pid": "GLMLC",
+                "type": "3dtiles",
+                "name": "瓜沥梅林村",
+                "url": "http://20.0.6.182/Tiles/梅林村v3/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+			{
+                "id": "YUNQI",
+                "pid": 20,
+                "name": "云栖大会",
+                "type": "group"
+            },
+			{
+                "pid": "YUNQI",
+                "id": "level-2-outer",
+                "type": "3dtiles",
+                "name": "国际会展中心二期外层",
+                "url": "http://20.0.6.182/Tiles/yunqitown/812/tiles-compress/tileset.json",
+                "hasOpacity": true,
+                "visible": true,
+                "ishighlight":false,
+                "period":"",
+                "floor":"",
+                "productname":"",
+                "nodeicon":"images/layer.png",
+                "offset": {
+                    "x": 120.07880898,
+                    "y": 30.1305312,
+                    "z": 10.088,
+                    "heading": 0.32,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+			{
+                "pid": "YUNQI",
+                "id": "level-2-B1",
+                "type": "3dtiles",
+                "name": "二期B1",
+                "url": "http://20.0.6.182/Tiles/yunqitown/fenleifenceng/ps/2q/B1/云栖二期B1土建-tiles/tileset.json",
+                "hasOpacity": true,
+                "ishighlight":false,
+                "period":"",
+                "floor":"",
+                "productname":"",
+                "nodeicon":"images/layer.png",
+                "visible": false,
+                 "offset": {
+                    "x": 120.07881875,
+                    "y": 30.13055033,
+                    "z": 4.00,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "YUNQI",
+                "id": "level-2-1F",
+                "type": "3dtiles",
+                "name": "二期1F",
+                "url": "http://20.0.6.182/Tiles/yunqitown/fenleifenceng/ps/2q/1F/云栖二期1F土建-tiles/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "ishighlight":false,
+                "period":"",
+                "floor":"",
+                "productname":"",
+                "nodeicon":"images/layer.png",
+                "offset": {
+                    "x": 120.07888635,
+                    "y": 30.13058518,
+                    "z": -0.18,
+                    "heading": 0.32,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "YUNQI",
+                "id": "level-2-2F",
+                "type": "3dtiles",
+                "name": "二期2F",
+                "url": "http://20.0.6.182/Tiles/yunqitown/fenleifenceng/ps/2q/2F/云栖二期2F土建-tiles/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "ishighlight":false,
+                "period":"",
+                "floor":"",
+                "productname":"",
+                "nodeicon":"images/layer.png",
+                "offset": {
+                    "x": 120.07889917,
+                    "y": 30.13053105,
+                    "z": 0.44,
+                    "heading": 0.32,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "YUNQI",
+                "id": "level-2-3F",
+                "type": "3dtiles",
+                "name": "二期3F",
+                "url": "http://20.0.6.182/Tiles/yunqitown/fenleifenceng/ps/2q/3F/云栖二期3F土建-tiles/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "ishighlight":false,
+                "period":"",
+                "floor":"",
+                "productname":"",
+                "nodeicon":"images/layer.png",
+                "offset": {
+                    "x": 120.07892629,
+                    "y": 30.13051493,
+                    "z": 3.77,
+                    "heading": 0.32,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "id": "GUALI_NEW",
+                "pid": 20,
+                "name": "瓜沥(新)",
+                "type": "group"
+            },
+            {
+                "id": "GUALI_NEW_FULOU",
+                "pid": "GUALI_NEW",
+                "name": "文体中心副楼",
+                "type": "group"
+            },
+            {
+                "pid": "GUALI_NEW",
+                "type": "3dtiles",
+                "name": "瓜沥倾斜",
+                "url": "http://20.0.6.182/Tiles/guali/guali_uav/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4503972,
+                    "y": 30.1928292,
+                    "z": 37.23,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_FULOU",
+                "type": "3dtiles",
+                "name": "文体中心副楼B1",
+                "url": "http://20.0.6.182/tiles/guali_new/fulou/B1/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4524232,
+                    "y": 30.1908218,
+                    "z": -7.9,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_FULOU",
+                "type": "3dtiles",
+                "name": "文体中心副楼1F",
+                "url": "http://20.0.6.182/tiles/guali_new/fulou/1F/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4523982,
+                    "y": 30.1908359,
+                    "z": -2.75,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_FULOU",
+                "type": "3dtiles",
+                "name": "文体中心副楼2F",
+                "url": "http://20.0.6.182/tiles/guali_new/fulou/2F/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4523315,
+                    "y": 30.1908216,
+                    "z": -1.15,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_FULOU",
+                "type": "3dtiles",
+                "name": "文体中心副楼3F",
+                "url": "http://20.0.6.182/tiles/guali_new/fulou/3F/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4522819,
+                    "y": 30.1908194,
+                    "z": 7.26,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_FULOU",
+                "type": "3dtiles",
+                "name": "文体中心副楼4F",
+                "url": "http://20.0.6.182/tiles/guali_new/fulou/4F/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4522819,
+                    "y": 30.1908194,
+                    "z": 12.16,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_FULOU",
+                "type": "3dtiles",
+                "name": "文体中心副楼外立面",
+                "url": "http://20.0.6.182/tiles/guali_new/fulou/wailimian/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4522819,
+                    "y": 30.1908194,
+                    "z": 13.12,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "id": "GUALI_NEW_ZHULOU",
+                "pid": "GUALI_NEW",
+                "name": "文体中心主楼",
+                "type": "group"
+            },
+            {
+                "pid": "GUALI_NEW_ZHULOU",
+                "type": "3dtiles",
+                "name": "文体中心主楼1F",
+                "url": "http://20.0.6.182/tiles/guali_new/zhulou/1F/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.453235,
+                    "y": 30.1904875,
+                    "z": -5,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_ZHULOU",
+                "type": "3dtiles",
+                "name": "文体中心主楼2F",
+                "url": "http://20.0.6.182/tiles/guali_new/zhulou/2F/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.453235,
+                    "y": 30.1904875,
+                    "z": -1.03,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_ZHULOU",
+                "type": "3dtiles",
+                "name": "文体中心主楼3F",
+                "url": "http://20.0.6.182/tiles/guali_new/zhulou/3F/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.453235,
+                    "y": 30.1904875,
+                    "z": 4.4,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_ZHULOU",
+                "type": "3dtiles",
+                "name": "文体中心主楼座位",
+                "url": "http://20.0.6.182/tiles/guali_new/zhulou/zuowei/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.453235,
+                    "y": 30.1904875,
+                    "z": -0.55,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "GUALI_NEW_ZHULOU",
+                "type": "3dtiles",
+                "name": "文体中心主楼外立面",
+                "url": "http://20.0.6.182/tiles/guali_new/zhulou/wailimian/tileset.json",
+                "luminanceAtZenith": 0.4,
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.4532419,
+                    "y": 30.190472,
+                    "z": 9.79,
+                    "heading": 21.8,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+
+            {
+                "id": "XLG",
+                "pid": "YYSG",
+                "name": "训练馆",
+                "type": "group"
+            },
+            {
+                "pid": "XLG",
+                "type": "3dtiles",
+                "name": "钢结构外侧",
+                "url": "http://tiles.caanzhen.com/BIM/训练馆/钢结构外侧/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": { "x": 120.23215, "y": 30.227665, "heading": 34 }
+            },
+            {
+                "pid": "XLG",
+                "type": "3dtiles",
+                "name": "钢结构内侧",
+                "url": "http://tiles.caanzhen.com/BIM/训练馆/钢结构内侧/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": { "x": 120.23215, "y": 30.227665, "heading": 34 }
+            },
+            {
+                "pid": "XLG",
+                "type": "3dtiles",
+                "name": "宿舍楼",
+                "url": "http://tiles.caanzhen.com/BIM/训练馆/宿舍楼/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": { "x": 120.2315987, "y": 30.2265941, "heading": 305 }
+            },
+            {
+                "pid": "XLG",
+                "type": "3dtiles",
+                "name": "自行车馆",
+                "url": "http://tiles.caanzhen.com/BIM/训练馆/自行车馆/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": { "x": 120.2313035, "y": 30.2282268, "heading": 305 }
+            },
+            {
+                "pid": "XLG",
+                "type": "3dtiles",
+                "name": "五大中心",
+                "url": "http://tiles.caanzhen.com/BIM/训练馆/五大中心/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": { "x": 120.22302358, "y": 30.2279942, "heading": 305 }
+            },
+            {
+                "pid": "XLG",
+                "type": "3dtiles",
+                "name": "配套公建",
+                "url": "http://tiles.caanzhen.com/BIM/训练馆/配套公建/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": { "x": 120.2327323, "y": 30.2271863, "heading": 305 }
+            },
+            {
+                "id": "YYSG",
+                "pid": 20,
+                "name": "亚运三馆",
+                "type": "group"
+            },
+            {
+                "id": "ATYYG",
+                "pid": "YYSG",
+                "name": "奥体游泳馆",
+                "type": "group"
+            },
+
+            {
+                "id": "TYYYGNBMX",
+                "pid": "TYYYGNB",
+                "name": "体育游泳馆-模型",
+                "type": "group"
+            },
+            {
+                "id": "ATZXTYG",
+                "pid": "YYSG",
+                "name": "奥体体育馆",
+                "type": "group"
+            },
+            {
+                "pid": "ATZXTYG",
+                "type": "3dtiles",
+                "name": "体育馆B1",
+                "url": "http://20.0.6.182/Tiles/aoti/tiyuguan/B1/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": {
+                    "x": 120.2288892,
+                    "y": 30.2349677,
+                    "z": -14.31,
+                    "heading": 35,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "ATZXTYG",
+                "type": "3dtiles",
+                "name": "体育馆1F",
+                "url": "http://20.0.6.182/Tiles/aoti/tiyuguan/1F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": {
+                    "x": 120.2290020,
+                    "y": 30.2352525,
+                    "z": -3.35,
+                    "heading": 35,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "ATZXTYG",
+                "type": "3dtiles",
+                "name": "体育馆1FJC",
+                "url": "http://20.0.6.182/Tiles/aoti/tiyuguan/1FJC/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": {
+                    "x": 120.2286810,
+                    "y": 30.2346047,
+                    "z": 1.58,
+                    "heading": 35,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "ATZXTYG",
+                "type": "3dtiles",
+                "name": "体育馆2F",
+                "url": "http://20.0.6.182/Tiles/aoti/tiyuguan/2F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": {
+                    "x": 120.2288687,
+                    "y": 30.2349668,
+                    "z": -12.26,
+                    "heading": 35,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "ATZXTYG",
+                "type": "3dtiles",
+                "name": "体育馆3F",
+                "url": "http://20.0.6.182/Tiles/aoti/tiyuguan/3F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": {
+                    "x": 120.2288933,
+                    "y": 30.2350106,
+                    "z": 9.87,
+                    "heading": 35,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "ATZXTYG",
+                "type": "3dtiles",
+                "name": "体育馆4F5F",
+                "url": "http://20.0.6.182/Tiles/aoti/tiyuguan/4F5F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": {
+                    "x": 120.2288755,
+                    "y": 30.2349705,
+                    "z": 14.44,
+                    "heading": 35,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "ATYYG",
+                "type": "3dtiles",
+                "name": "游泳馆1F",
+                "url": "http://20.0.6.182/Tiles/aoti/youyongguan/1F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": { "x": 120.2266979, "y": 30.2363235, "z": -9.29, "heading": 35 }
+            },
+            {
+                "pid": "ATYYG",
+                "type": "3dtiles",
+                "name": "游泳馆1FJC",
+                "url": "http://20.0.6.182/Tiles/aoti/youyongguan/1FJC/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": { "x": 120.2263482, "y": 30.2359541, "z": 2.21, "heading": 35 }
+            },
+            {
+                "pid": "ATYYG",
+                "type": "3dtiles",
+                "name": "游泳馆2F",
+                "url": "http://20.0.6.182/Tiles/aoti/youyongguan/2F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": { "x": 120.2266981, "y": 30.2363233, "z": 6.19, "heading": 35 }
+            },
+            {
+                "pid": "ATYYG",
+                "type": "3dtiles",
+                "name": "游泳馆3F",
+                "url": "http://20.0.6.182/Tiles/aoti/youyongguan/3F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": { "x": 120.2266614, "y": 30.2361461, "z": 10, "heading": 35 }
+            },
+            {
+                "id": "TYYYGNBDXS",
+                "pid": "YYSG",
+                "name": "体育游泳馆-地下室",
+                "type": "group"
+            },
+            {
+                "pid": "TYYYGNBDXS",
+                "type": "3dtiles",
+                "name": "体育游泳馆1F",
+                "luminanceAtZenith": 0.3,
+                "url": "http://20.0.6.182/Tiles/yayunsanguan/bim/体育游泳馆/13地下室底座/1F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": { "x": 120.2281635, "y": 30.235474, "z": -2.93, "heading": 35 }
+            },
+            {
+                "pid": "TYYYGNBDXS",
+                "type": "3dtiles",
+                "name": "体育游泳馆B1",
+                "url": "http://20.0.6.182/Tiles/yayunsanguan/bim/体育游泳馆/13地下室底座/B1/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": { "x": 120.2281719, "y": 30.2354754, "z": -10.10, "heading": 35 }
+            },
+            {
+                "pid": "TYYYGNBDXS",
+                "type": "3dtiles",
+                "name": "体育游泳馆B2",
+                "url": "http://20.0.6.182/Tiles/yayunsanguan/bim/体育游泳馆/13地下室底座/B2/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.3,
+                "offset": { "x": 120.2283730, "y": 30.2356245, "z": -10.65, "heading": 35 }
+            },
+            {
+                "pid": "YYSG",
+                "type": "3dtiles",
+                "name": "体育游泳馆倾斜",
+                "url": "http://20.0.6.182/Tiles/yayunsanguan/bim/体育游泳馆/外壳实景/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2272691,
+                    "y": 30.235554,
+                    "z": 105,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0
+                }
+            },
+            {
+                "pid": "YYSG",
+                "type": "3dtiles",
+                "name": "亚运三馆倾斜",
+                "url": "http://20.0.6.182/Tiles/yayunsanguan/uav/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2283612,
+                    "y": 30.2323988,
+                    "z": 74.58,
+                    "heading": 0,
+                    "pitch": 0.0,
+                    "roll": 0
+                }
+            },
+            {
+                "id": "DXLH_NEW",
+                "pid": 20,
+                "name": "大小莲花(新)",
+                "type": "group"
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花座位1F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/number-1F-tiles/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.22439143,
+                    "y": 30.231608366,
+                    "z": 41.8,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花座位4F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/number-2F-tiles/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.22439064,
+                    "y": 30.23160812,
+                    "z": 42.2,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花座位6F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/number-3F-tiles/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.22439195,
+                    "y": 30.23160925,
+                    "z": 41.8,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花B1",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/B1/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2243752,
+                    "y": 30.2316248,
+                    "z": -10.1,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.3,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花1F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/1F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2243761,
+                    "y": 30.2316248,
+                    "z": -7.4,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.3,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花2F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/2F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2243646,
+                    "y": 30.2316221,
+                    "z": 6.1,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.3,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花3F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/3F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2243752,
+                    "y": 30.2316407,
+                    "z": 6.71,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.3,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花4F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/4F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2243431,
+                    "y": 30.2316105,
+                    "z": 12.34,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.3,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花5F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/5F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2243752,
+                    "y": 30.2315986,
+                    "z": 16.78,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.3,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大莲花6F",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/6F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2243752,
+                    "y": 30.2315983,
+                    "z": 20.3,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.3,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "DXLH_NEW",
+                "type": "3dtiles",
+                "name": "大小莲花倾斜",
+                "url": "http://20.0.6.182/Tiles/aoti/dalianhua_new/dalianhua-tiles/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.226224,
+                    "y": 30.230568,
+                    "z": -0.11,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                },
+                "luminanceAtZenith": 0.5,
+                "maximumMemoryUsage": 32
+            },
+            {
+                "id": "BLZX",
+                "pid": 20,
+                "name": "博览中心",
+                "type": "group"
+            },
+            {
+                "id": "BLZX_B2",
+                "pid": "BLZX",
+                "name": "地下二层",
+                "expand": false,
+                "type": "group"
+            },
+            {
+                "pid": "BLZX_B2",
+                "type": "3dtiles",
+                "name": "地下二层精细",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/B2-jx/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2339895,
+                    "y": 30.232006,
+                    "z": -15.5,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX_B2",
+                "type": "3dtiles",
+                "name": "地下二层外围",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/B2/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.234019,
+                    "y": 30.232022,
+                    "z": -17,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "id": "BLZX_B1",
+                "pid": "BLZX",
+                "name": "地下一层",
+                "expand": false,
+                "type": "group"
+            },
+            {
+                "pid": "BLZX_B1",
+                "type": "3dtiles",
+                "name": "地下一层精细",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/B1-jx/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.23400101,
+                    "y": 30.23197723,
+                    "z": -9.7,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX_B1",
+                "type": "3dtiles",
+                "name": "地下一层外围",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/B1/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.233978,
+                    "y": 30.232,
+                    "z": -11,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "id": "BLZX_ZT_1F",
+                "pid": "BLZX",
+                "name": "展厅一层",
+                "expand": false,
+                "type": "group"
+            },
+            {
+                "pid": "BLZX_ZT_1F",
+                "type": "3dtiles",
+                "name": "展厅一层精细",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/1F-zt/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.234696,
+                    "y": 30.232007,
+                    "z": 3.2,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX_ZT_1F",
+                "type": "3dtiles",
+                "name": "展厅一层外围",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/1F-zt/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.234511,
+                    "y": 30.2322673,
+                    "z": -17.55,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "id": "BLZX_ZT_2F",
+                "pid": "BLZX",
+                "name": "展厅二层",
+                "expand": false,
+                "type": "group"
+            },
+            {
+                "pid": "BLZX_ZT_2F",
+                "type": "3dtiles",
+                "name": "展厅二层精细",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/2F-zt-jx/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2346323,
+                    "y": 30.2320263,
+                    "z": 6.7,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX_ZT_2F",
+                "type": "3dtiles",
+                "name": "展厅二层外围",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/2F-zt/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.234462,
+                    "y": 30.2322533,
+                    "z": -7.55,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "id": "BLZX_ZT_3F4F",
+                "pid": "BLZX",
+                "name": "展厅三四层",
+                "expand": false,
+                "type": "group"
+            },
+            {
+                "pid": "BLZX_ZT_3F4F",
+                "type": "3dtiles",
+                "name": "展厅三四层精细",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/3F-zt-jx/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.23475205,
+                    "y": 30.23199775,
+                    "z": 14.8,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX_ZT_3F4F",
+                "type": "3dtiles",
+                "name": "展厅三四层外围",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/3F-zt/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.234496,
+                    "y": 30.2322953,
+                    "z": 1.2,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX",
+                "type": "3dtiles",
+                "name": "会议一层",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/1F-hy/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2327735,
+                    "y": 30.233133,
+                    "z": -1.8,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX",
+                "type": "3dtiles",
+                "name": "会议二层",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/2F-hy/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2327198,
+                    "y": 30.2330732,
+                    "z": 3.3,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX",
+                "type": "3dtiles",
+                "name": "会议三层",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/HY34.16/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.2328058,
+                    "y": 30.2332073,
+                    "z": 14.0,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX",
+                "type": "3dtiles",
+                "name": "会议四层",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/4F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.234349,
+                    "y": 30.232083,
+                    "z": 13.0,
+                    "heading": 0.5843888888888889,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+            {
+                "pid": "BLZX",
+                "type": "3dtiles",
+                "name": "国博外观",
+                "url": "http://20.0.6.182/Tiles/aoti/guobo/gbys/gb/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "offset": {
+                    "x": 120.234171,
+                    "y": 30.232168,
+                    "z": 12.5,
+                    "heading": 0.5846852994181004,
+                    "pitch": 0,
+                    "roll": 0
+                },
+                "maximumMemoryUsage": 32
+            },
+                        {
+                "id": "LINPU_NEW",
+                "pid": 20,
+                "name": "临浦(新)",
+                "type": "group"
+            },
+            {
+                "pid": "LINPU_NEW",
+                "type": "3dtiles",
+                "name": "临浦倾斜",
+                "url": "http://20.0.6.182/Tiles/linpuqingxie/tileset.json",
+                "hasOpacity": true,
+                "visible": false
+            },
+            {
+                "pid": "LINPU_NEW",
+                "type": "3dtiles",
+                "name": "临浦体育馆B1",
+                "url": "http://20.0.6.182/tiles/linpu_new/B1/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.4,
+                "offset": {
+                    "x": 120.2424384,
+                    "y": 30.0487129,
+                    "z": -6.75,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "LINPU_NEW",
+                "type": "3dtiles",
+                "name": "临浦体育馆1F",
+                "url": "http://20.0.6.182/tiles/linpu_new/1F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.4,
+                "offset": {
+                    "x": 120.2424462,
+                    "y": 30.0486796,
+                    "z": -1.2,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "LINPU_NEW",
+                "type": "3dtiles",
+                "name": "临浦体育馆2F",
+                "url": "http://20.0.6.182/tiles/linpu_new/2F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.4,
+                "offset": {
+                    "x": 120.2424457,
+                    "y": 30.0486154,
+                    "z": -1.15,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            },
+            {
+                "pid": "LINPU_NEW",
+                "type": "3dtiles",
+                "name": "临浦体育馆3F",
+                "url": "http://20.0.6.182/tiles/linpu_new/3F/tileset.json",
+                "hasOpacity": true,
+                "visible": false,
+                "luminanceAtZenith": 0.4,
+                "offset": {
+                    "x": 120.2424454,
+                    "y": 30.0487163,
+                    "z": 3.34,
+                    "heading": 0.0,
+                    "pitch": 0.0,
+                    "roll": 0.0
+                }
+            }
+
+        ],
+        "basePlotLayers": [
+            {
+                "id": 6,
+                "name": "小模型",
+                "type": "group"
+            },
+            {
+                "id": 4,
+                "name": "三维",
+                "type": "group"
+            },
+            {
+                "id": 5,
+                "name": "点和文字",
+                "type": "group"
+            },
+            {
+                "id": 3,
+                "name": "军标",
+                "type": "group"
+            },
+            {
+                "id": 2,
+                "name": "二维",
+                "type": "group"
+            }
+        ],
+        "secondaryPlotLayers": [
+            {
+                "pid": 2,
+                "id": 28,
+                "name": "贴地图片",
+                "type": "group",
+                "sort": "rectangleImg"
+            },
+            {
+                "pid": 2,
+                "id": 27,
+                "name": "贴地圆",
+                "type": "group",
+                "sort": "ellipse_clampToGround"
+            },
+            {
+                "pid": 2,
+                "id": 26,
+                "name": "圆",
+                "type": "group",
+                "sort": "ellipse"
+            },
+            {
+                "pid": 2,
+                "id": 25,
+                "name": "贴地矩形",
+                "type": "group",
+                "sort": "rectangle_clampToGround"
+            },
+            {
+                "pid": 2,
+                "id": 24,
+                "name": "矩形",
+                "type": "group",
+                "sort": "rectangle"
+            },
+            {
+                "pid": 2,
+                "id": 23,
+                "name": "贴地面",
+                "type": "group",
+                "sort": "polygon_clampToGround"
+            },
+            {
+                "pid": 2,
+                "id": 22,
+                "name": "面",
+                "type": "group",
+                "sort": "polygon"
+            },
+            {
+                "pid": 2,
+                "id": 21,
+                "name": "贴地线",
+                "type": "group",
+                "sort": "polyline_clampToGround"
+            },
+            {
+                "pid": 2,
+                "id": 20,
+                "name": "折线",
+                "type": "group",
+                "sort": "polyline"
+            },
+            {
+                "pid": 3,
+                "id": 37,
+                "name": "连续平尾箭头",
+                "type": "group",
+                "sort": "lianXuPingWeiArrow"
+            },
+            {
+                "pid": 3,
+                "id": 36,
+                "name": "连续直角箭头",
+                "type": "group",
+                "sort": "lianXuZhiArrow"
+            },
+            {
+                "pid": 3,
+                "id": 35,
+                "name": "连续燕尾箭头",
+                "type": "group",
+                "sort": "lianXuYanWeiArrow"
+            },
+            {
+                "pid": 3,
+                "id": 34,
+                "name": "燕尾箭头",
+                "type": "group",
+                "sort": "yanWeiArrow"
+            },
+            {
+                "pid": 3,
+                "id": 33,
+                "name": "钳击箭头",
+                "type": "group",
+                "sort": "qianjiArrow"
+            },
+            {
+                "pid": 3,
+                "id": 32,
+                "name": "粗直箭头",
+                "type": "group",
+                "sort": "cuZhiArrow"
+            },
+            {
+                "pid": 3,
+                "id": 31,
+                "name": "细直箭头",
+                "type": "group",
+                "sort": "xiZhiArrow"
+            },
+            {
+                "pid": 3,
+                "id": 30,
+                "name": "直角箭头",
+                "type": "group",
+                "sort": "zhijiaoArrow"
+            },
+            {
+                "pid": 4,
+                "id": 40,
+                "name": "墙体",
+                "type": "group",
+                "sort": "wall"
+            },
+            {
+                "pid": 4,
+                "id": 41,
+                "name": "管道",
+                "type": "group",
+                "sort": "polylineVolume"
+            },
+            {
+                "pid": 4,
+                "id": 42,
+                "name": "多边立体",
+                "type": "group",
+                "sort": "extrudedPolygon"
+            },
+            {
+                "pid": 4,
+                "id": 43,
+                "name": "立方体",
+                "type": "group",
+                "sort": "extrudedRectangle"
+            },
+            {
+                "pid": 4,
+                "id": 44,
+                "name": "圆柱体",
+                "type": "group",
+                "sort": "extrudedEllipse"
+            },
+            {
+                "pid": 4,
+                "id": 45,
+                "name": "球体",
+                "type": "group",
+                "sort": "ellipsoid"
+            },
+            {
+                "pid": 5,
+                "id": 50,
+                "name": "文字",
+                "type": "group",
+                "sort": "label"
+            },
+            {
+                "pid": 5,
+                "id": 51,
+                "name": "点",
+                "type": "group",
+                "sort": "point"
+            },
+            {
+                "pid": 5,
+                "id": 52,
+                "name": "图标点",
+                "type": "group",
+                "sort": "billboard"
+            },
+            {
+                "pid": 6,
+                "id": 60,
+                "name": "模型",
+                "type": "group",
+                "sort": "model"
+            }
+        ],
+        "operationalPlotLayers": []
+    },
+    "widget": {
+        "debugger": false,
+        "version": "time",
+        "defaultOptions": {
+            "style": "dark",
+            "windowOptions": {
+                "skin": "layer-mars-dialog animation-scale-up",
+                "position": {
+                    "top": 50,
+                    "right": 10
+                },
+                "maxmin": false,
+                "resize": true
+            },
+            "autoDisable": true,
+            "disableOhter": true
+        },
+        "widgetsAtStart": [
+            {
+                "name": "右上角工具栏",
+                "uri": "widgets/toolBarRight/widget.js",
+                "data": [
+                    {
+                        "name": "漫游",
+                        "icon": "fa fa-globe",
+                        "onclick": "mars3d.widget.disableAll()",
+                        "visible": false
+                    },
+                    {
+                        "name": "底图",
+                        "icon": "fa fa-map",
+                        "widget": "widgets/manageBasemaps/widget.js",
+                        "visible": false
+                    },
+                    {
+                        "name": "图层",
+                        "icon": "fa fa-tasks",
+                        "widget": "widgets/manageLayers/widget.js",
+                        "visible": false
+                    },
+                    {
+                        "name": "工具",
+                        "icon": "fa fa-cubes",
+                        "visible": false,
+                        "children": [
+                            {
+                                "name": "安保方案",
+                                "icon": "fa fa-object-group",
+                                "widget": "widgets/addPlot/widget.js",
+                                "visible": true
+                            },
+                            {
+                                "name": "沿线巡视",
+                                "icon": "fa fa-eye",
+                                "widget": "widgets/playDotsAreaCalculate/widget.js",
+                                "visible": true
+                            },
+                            {
+                                "name": "虚拟巡线",
+                                "icon": "fa fa-exchange",
+                                "widget": "widgets/roamLine/widget.js",
+                                "visible": true
+                            },
+                            {
+                                "name": "视频标点",
+                                "icon": "fa fa-map-marker",
+                                "widget": "widgets/addCamera/widget.js",
+                                "visible": true
+                            },
+                            {
+                                "name": "人员定位",
+                                "icon": "fa fa-users",
+                                "widget": "widgets/personnelPosition/widget.js",
+                                "visible": true
+                            },
+
+                            {
+                                "name": "标绘",
+                                "icon": "fa fa-object-group",
+                                "widget": "widgets/Plot/widget.js",
+                                "visible": false
+                            },
+                            {
+                                "name": "图上量算",
+                                "icon": "fa fa fa-calculator",
+                                "widget": "widgets/measure/widget.js"
+                            },
+
+                            {
+                                "name": "坐标定位",
+                                "icon": "fa fa-map-pin",
+                                "widget": "widgets/centerXY/widget.js"
+                            },
+
+                            {
+                                "name": "我的标记",
+                                "icon": "fa fa-edit",
+                                "widget": "widgets/addmarker/widget.js"
+                            },
+                            {
+                                "name": "视角书签",
+                                "icon": "fa fa-tags",
+                                "widget": "widgets/bookmark/widget.js"
+                            },
+                            {
+                                "name": "模型剖切",
+                                "icon": "fa fa-scissors",
+                                "widget": "widgets/clipPlane/widget.js"
+                            },
+                            {
+                                "name": "参数设置",
+                                "icon": "fa fa-cog",
+                                "widget": "widgets/setting/widget.js"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "高级操作器",
+                "uri": "widgets/cameraLimit/widget.js",
+                "visible": true
+            }
+        ],
+        "widgets": [
+            {
+                "name": "地图工具",
+                "type": "group",
+                "children": [
+                    {
+                        "id": "manageBasemaps",
+                        "name": "地图切换",
+                        "uri": "widgets/manageBasemaps/widget.js",
+                        "autoDisable": false,
+                        "disableOhter": false
+                    },
+                    {
+                        "name": "图层管理",
+                        "uri": "widgets/manageLayers/widget.js",
+                        "windowOptions": {
+                            "width": 340,
+                            "position": {
+                                "top": 100,
+                                "bottom": 100,
+                                "right": 10
+                            }
+                        },
+                        "autoDisable": true,
+                        "disableOhter": false
+                    },
+                    {
+                        "name": "图上量算",
+                        "uri": "widgets/measure/widget.js",
+                        "windowOptions": {
+                            "position": {
+                                "bottom": 30,
+                                "right": 40
+                            }
+                        }
+                    },
+                    {
+                        "name": "剖面分析",
+                        "uri": "widgets/section/widget.js",
+                        "windowOptions": {
+                            "position": {
+                                "bottom": 30,
+                                "right": 10
+                            }
+                        }
+                    },
+                    {
+                        "name": "剖面分析图表",
+                        "uri": "widgets/sectionChars/widget.js",
+                        "windowOptions": {
+                            "noTitle": true,
+                            "position": {
+                                "top": 10,
+                                "left": 10,
+                                "right": 10
+                            }
+                        },
+                        "disableOhter": false
+                    },
+                    {
+                        "name": "视角书签",
+                        "uri": "widgets/bookmark/widget.js"
+                    },
+                    {
+                        "name": "坐标定位",
+                        "uri": "widgets/centerXY/widget.js"
+                    },
+                    {
+                        "name": "标记",
+                        "uri": "widgets/addmarker/widget.js"
+                    },
+                    {
+                        "name": "地区导航",
+                        "uri": "widgets/navXZQH/widget.js"
+                    },
+                    {
+                        "name": "漫游路线设置",
+                        "uri": "widgets/roamLine/widget.js",
+                        "windowOptions": {
+                            "position": {
+                                "top": 45,
+                                "bottom": 30,
+                                "right": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "漫游路线",
+                        "uri": "widgets/roamFly/widget.js",
+                        "windowOptions": {
+                            "position": {
+                                "bottom": 60,
+                                "right": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "路线剖面",
+                        "uri": "widgets/roamChars/widget.js",
+                        "windowOptions": {
+                            "noTitle": true,
+                            "position": {
+                                "top": 10,
+                                "left": 10,
+                                "right": 10
+                            }
+                        },
+                        "disableOhter": false
+                    },
+                    {
+                        "name": "双屏对比",
+                        "uri": "widgets/mapCompare/widget.js",
+                        "autoDisable": false,
+                        "disableOhter": false
+                    },
+                    {
+                        "name": "卷帘对比",
+                        "uri": "widgets/mapSwipe/widget.js",
+                        "autoDisable": false,
+                        "disableOhter": false
+                    },
+                    {
+                        "name": "粒子效果",
+                        "uri": "widgets/particalSystem/widget.js"
+                    },
+                    {
+                        "name": "街景",
+                        "uri": "widgets/streetscape/widget.js"
+                    },
+                    {
+                        "name": "标绘",
+                        "uri": "widgets/plot/widget.js",
+                        "windowOptions": {
+                            "position": {
+                                "top": 45,
+                                "bottom": 30,
+                                "right": 5
+                            }
+                        },
+                        "openAtStart": false
+                    },
+                    {
+                        "name": "打印",
+                        "uri": "widgets/print/widget.js",
+                        "autoDisable": false,
+                        "disableOhter": false
+                    },
+                    {
+                        "name": "分享当前地图位置",
+                        "uri": "widgets/shareUrl/widget.js",
+                        "windowOptions": {
+                            "position": {
+                                "top": 1,
+                                "left": 250,
+                                "right": 250
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

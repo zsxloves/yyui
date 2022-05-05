@@ -1,0 +1,59 @@
+{
+    "code": 200,
+    "result": {
+        "page": {
+            "coordinates": [
+                120.22865573012432,
+                30.2364824283223,
+                0
+            ],
+            "point": [
+                {
+                    "height": 0,
+                    "time": "2022-02-02 12:12:12",
+                    "city": "南京市",
+                    "cityId": 445,
+                    "district": "浦口区",
+                    "districtId": 1359,
+                    "id": 3441,
+                    "lat": 30.239200,
+                    "lon": 120.225681,
+                    "province": "江苏省",
+                    "provinceId": 7,
+                    "telephone": "[]",
+                    "name": "安保1"
+                },
+                {
+                    "height": 0,
+                    "time": "2022-02-02 12:12:12",
+                    "city": "南京市",
+                    "cityId": 446,
+                    "district": "浦口区",
+                    "districtId": 1369,
+                    "id": 3442,
+                    "lat": "30.242024",
+                    "lon": "120.228467",
+                    "province": "江苏省",
+                    "provinceId": 6,
+                    "telephone": "[]",
+                    "name": "安保2"
+                },
+                {
+                    "height": 0,
+                    "time": "2022-02-02 12:12:12",
+                    "city": "南京市",
+                    "cityId": 447,
+                    "district": "浦口区",
+                    "districtId": 1379,
+                    "id": 3443,
+                    "lat": 30.233756,
+                    "lon": "120.234890",
+                    "province": "江苏省",
+                    "provinceId": 8,
+                    "telephone": "[]",
+                    "name": "安保3"
+                }
+            ]
+        }
+    }
+}

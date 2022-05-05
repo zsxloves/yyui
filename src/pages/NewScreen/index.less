@@ -1,0 +1,262 @@
+@import '~antd/es/style/themes/default.less';
+*{
+    padding:0;
+    margin:0;
+}
+p{
+    padding:0;
+    margin:0;
+}
+html{
+    overflow: hidden;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    background-size: 100% 100%;
+    background: url('./image/bg.png')
+}
+.clear{
+    clear:both;
+}
+.all{
+    font-size: 14rem;
+    color: #fff;
+    background: url('image/bg.png');
+    height: 100vh;
+    li{
+        list-style: none;
+    }
+    .topImg{
+        width: 16rem;
+    }
+    .topContain{
+        background: #081A3D;
+        width: 100%;
+        height: 88rem;
+        .contain{
+            height: 76rem;
+            width: 100%;
+            background: url('./image/top.png');
+            background-size: 100% 100%;
+            & > div{
+                float: left;
+            }
+            span{
+                color:#fff;
+            }
+            .topCenter{
+                width: 73.44%;
+                text-align: center;
+                height: 100%;
+                margin-left:-0.8%;
+                padding-top: 0.4%;
+                .big{
+                    font-size: 36rem;
+                    line-height: 1;
+                }
+                .small{
+                    font-size: 18rem;
+                }
+            }
+            .topLeft{
+                width: 14.06%;
+                /* padding-left: 2%; */
+                font-size: 20rem;
+                // text-align: right;
+                margin-top: 2.2%;
+                .detail{
+                    color: #fff;
+                    background: linear-gradient(to bottom,#00C1FF 0%,#0068FF 100%);
+                    padding: 2px 10px;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    font-size: 12rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            .topRight{
+                width: 12.5%;
+                /* padding-right: 2.6%; */
+                font-size: 20rem;
+                margin-top: 0.2%;
+                .section{
+                    background: linear-gradient(to bottom,#00C1FF 0%,#0068FF 100%);
+                    :global{
+                        .ant-select-selector{
+                            background: linear-gradient(to bottom,#00C1FF 0%,#0068FF 100%);
+                        }
+                    }
+                }
+                .topIcons{
+                    display: inline-block;
+                    &>img{
+                        margin: 0 6rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+.containBody{
+    height: 992rem;
+    width: 100%;
+    position: relative;
+    .leftContain{
+        width: 382rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: left 1s;
+    }
+    .hidden{
+        left: -382rem;
+        top: 0;
+    }
+    .shows{
+        left: 0rem;
+        top: 0;
+    }
+    .firstCard{
+        /* overflow: hidden; */
+        background: rgba(0, 33, 102, .8);
+        border: 1px solid #3292FE;
+        color: #fff;
+        position: relative;
+        box-sizing: border-box;
+        .tpl{
+            position: absolute;
+            top:-2px;
+            left: -2px;
+        }
+        .tpr{
+            position: absolute;
+            top:-2px;
+            right: -2px;
+        }
+        .btl{
+            position: absolute;
+            bottom:-2px;
+            left: -2px;
+        }
+        .btr{
+            position: absolute;
+            bottom:-2px;
+            right: -2px;
+        }
+        .top{
+            background: url('./image/liTop.png');
+            background-size: 100% 100%;
+            width: 44.5%;
+            height: 45rem;
+            display: flex;
+            align-items: center;
+            img{
+                margin-left:15%;
+                margin-right: 3%;
+            }
+            span{
+                font-size: 16rem;
+            }
+        }
+        .middle{
+            margin-top: 12rem;
+        }
+        .fb{    
+            text-align: center;
+            float: left;
+            width: 41.9%;
+            margin: 0 4.05%;
+            background: rgba(53, 174, 211, 0.2);
+            font-size: 14rem;
+            color:#fff;
+            .one{    
+                position: relative;
+                // margin-top: 5%;
+                font-size: 24rem;
+                font-family: Digiface;
+                color: rgba(255, 68, 0, 1);
+            }
+        }
+        .bottomOne{
+            margin: 12rem 0;
+            li{    
+                width: 25%;
+                float: left;
+                position: relative;
+                text-align: center;
+                .line{
+                    width: 2px;
+                    height: 31rem;
+                    background: #0075A3;
+                    position: absolute;
+                    right: 0;
+                    top:0;
+                }
+                .numberOne{
+                    font-size: 22rem;
+                    font-family: Digiface;
+                    color: #25FFA6;
+                }
+                .numberTwo{
+                    font-size: 22rem;
+                    font-family: Digiface;
+                    color: rgba(249, 213, 61, 1);
+                }
+            }
+        }
+        .toggleCard{
+            position: absolute;
+            top: 0;
+            right: -30rem;
+            position: absolute;
+            color: #fff;
+            background: #000;
+            cursor: pointer;
+            text-shadow: 0rem 1rem 4rem #000;
+            font-size: 20rem;
+            width: 30rem;
+            padding: 10rem 0rem;
+            text-align: center;
+            line-height: 20rem;
+        }
+    }
+    .rightContain{
+        width: 382rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: right 1s;
+        .rightTwoCard{
+            .content{
+                width: 100%;
+                margin: 2% auto;
+                width: 92.4%;
+                overflow:hidden;
+            }
+        }
+        .rightTwoCard .content::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+.iconPf{
+    width: 6.4%;
+    height: 14.31%;
+    background: rgba(2, 18, 38, 0.6);
+    box-shadow: 0px 0px 9px 0px rgba(108, 197, 236, 0.5);
+    border-radius: 4px;
+    border: 1px solid #4287FF;
+    position: absolute;
+    top: 0.833%;
+    right: 21.875%;
+}
+.iconPf li{
+    margin: 2% 0;
+    width: 100%;
+}
+.iconPf li img{
+    margin: 0 5% 0 5%;
+    vertical-align: middle;
+}
+.iconPf li span{
+    vertical-align: middle;
+}

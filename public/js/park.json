@@ -1,0 +1,356 @@
+{
+    "status": "ok",
+    "results": [
+        {
+            "id": "1",
+            "sys_code": "200422",
+            "name": "湘湖老虎洞公墓停车场",
+            "position": {
+                "longitude": 120.20147139868656,
+                "latitude": 30.131448883594473,
+                "height": 0
+            }
+        },
+        {
+            "id": "2",
+            "sys_code": "200372",
+            "name": "窑里坞停车场",
+            "position": {
+                "longitude": 120.23166883836166,
+                "latitude": 30.152192944610377,
+                "height": 0
+            }
+        },
+        {
+            "id": "3",
+            "sys_code": "200273",
+            "name": "越风楼停车场",
+            "position": {
+                "longitude": 120.22671020908231,
+                "latitude": 30.14787085700254,
+                "height": 0
+            }
+        },
+        {
+            "id": "4",
+            "sys_code": "200041",
+            "name": "狮子山停车场",
+            "position": {
+                "longitude": 120.21152567131001,
+                "latitude": 30.143124707795113,
+                "height": 0
+            }
+        },
+        {
+            "id": "5",
+            "sys_code": "200036",
+            "name": "沈王家停车场",
+            "position": {
+                "longitude": 120.22398737197999,
+                "latitude": 30.146179067725594,
+                "height": 0
+            }
+        },
+        {
+            "id": "6",
+            "sys_code": "200037",
+            "name": "三江口游客中心停车场",
+            "position": {
+                "longitude": 120.1888412365853,
+                "latitude": 30.114793757709382,
+                "height": 0
+            }
+        },
+        {
+            "id": "7",
+            "sys_code": "200032",
+            "name": "罗家坞停车场",
+            "position": {
+                "longitude": 120.21485911416946,
+                "latitude": 30.135072635811518,
+                "height": 0
+            }
+        },
+        {
+            "id": "8",
+            "sys_code": "200030",
+            "name": "金沙戏水停车场",
+            "position": {
+                "longitude": 120.21399597818946,
+                "latitude": 30.124702238224305,
+                "height": 0
+            }
+        },
+        {
+            "id": "9",
+            "sys_code": "200315",
+            "name": "湘湖渔村",
+            "position": {
+                "longitude": 120.22773263278198,
+                "latitude": 30.155466771138553,
+                "height": 0
+            }
+        },
+        {
+            "id": "10",
+            "sys_code": "200028",
+            "name": "天鹅池停车场",
+            "position": {
+                "longitude": 120.22305498223977,
+                "latitude": 30.15061764345792,
+                "height": 0
+            }
+        },
+        {
+            "id": "11",
+            "sys_code": "200151",
+            "name": "湘师路停车场",
+            "position": {
+                "longitude": 120.18966743281699,
+                "latitude": 30.11882659761735,
+                "height": 0
+            }
+        },
+        {
+            "id": "12",
+            "sys_code": "200150",
+            "name": "湘庄停车场",
+            "position": {
+                "longitude": 120.22041479574915,
+                "latitude": 30.14908861742109,
+                "height": 0
+            }
+        },
+        {
+            "id": "13",
+            "sys_code": "200149",
+            "name": "荷花庄停车场",
+            "position": {
+                "longitude": 120.22484305649901,
+                "latitude": 30.151896930273107,
+                "height": 0
+            }
+        },
+        {
+            "id": "14",
+            "sys_code": "200148",
+            "name": "城山广场停车场",
+            "position": {
+                "longitude": 120.22695293877639,
+                "latitude": 30.154614061495376,
+                "height": 0
+            }
+        },
+        {
+            "id": "15",
+            "sys_code": "200147",
+            "name": "博物馆西",
+            "position": {
+                "longitude": 120.22036540365869,
+                "latitude": 30.145227852292344,
+                "height": 0
+            }
+        },
+        {
+            "id": "16",
+            "sys_code": "200146",
+            "name": "初阳台停车场",
+            "position": {
+                "longitude": 120.19306902567375,
+                "latitude": 30.124194722614092,
+                "height": 0
+            }
+        },
+        {
+            "id": "17",
+            "sys_code": "200145",
+            "name": "湖滨楼停车场",
+            "position": {
+                "longitude": 120.2350146929718,
+                "latitude": 30.154353306152355,
+                "height": 0
+            }
+        },
+        {
+            "id": "18",
+            "sys_code": "200131",
+            "name": "湘花岛停车场",
+            "position": {
+                "longitude": 120.2176158671268,
+                "latitude": 30.120000703872716,
+                "height": 0
+            }
+        },
+        {
+            "id": "19",
+            "sys_code": "200057",
+            "name": "德风桥停车场",
+            "position": {
+                "longitude": 120.20852395425128,
+                "latitude": 30.131333638629883,
+                "height": 0
+            }
+        },
+        {
+            "id": "20",
+            "sys_code": "200044",
+            "name": "连山桥东停车场",
+            "position": {
+                "longitude": 120.20324058714395,
+                "latitude": 30.135230861476487,
+                "height": 0
+            }
+        },
+        {
+            "id": "21",
+            "sys_code": "200043",
+            "name": "美食广场临时停车场",
+            "position": {
+                "longitude": 120.21883485695211,
+                "latitude": 30.140431990589235,
+                "height": 0
+            }
+        },
+        {
+            "id": "22",
+            "sys_code": "200042",
+            "name": "上善桥停车场",
+            "position": {
+                "longitude": 120.20435030499324,
+                "latitude": 30.138294102095053,
+                "height": 0
+            }
+        },
+        {
+            "id": "23",
+            "sys_code": "200038",
+            "name": "下孙文化村停车场",
+            "position": {
+                "longitude": 120.22860441729283,
+                "latitude": 30.15875233487426,
+                "height": 0
+            }
+        },
+        {
+            "id": "24",
+            "sys_code": "200034",
+            "name": "跨湖桥博物馆停车场",
+            "position": {
+                "longitude": 120.22036540365869,
+                "latitude": 30.145227852292344,
+                "height": 0
+            }
+        },
+        {
+            "id": "25",
+            "sys_code": "200033",
+            "name": "湖山停车场",
+            "position": {
+                "longitude": 120.2175358011864,
+                "latitude": 30.138977999494102,
+                "height": 0
+            }
+        },
+        {
+            "id": "26",
+            "sys_code": "200027",
+            "name": "老虎洞游客中心停车场",
+            "position": {
+                "longitude": 120.19146695418993,
+                "latitude": 30.12673088978639,
+                "height": 0
+            }
+        },
+        {
+            "id": "27",
+            "sys_code": "200318",
+            "name": "古窑停车场",
+            "position": {
+                "longitude": 120.21795810875224,
+                "latitude": 30.14780048060247,
+                "height": 0
+            }
+        },
+        {
+            "id": "28",
+            "sys_code": "200039",
+            "name": "狮峰桥停车场",
+            "position": {
+                "longitude": 120.21762327630529,
+                "latitude": 30.118676146619247,
+                "height": 0
+            }
+        },
+        {
+            "id": "29",
+            "sys_code": "200035",
+            "name": "观荷路停车场",
+            "position": {
+                "longitude": 120.20202725525535,
+                "latitude": 30.11620492473151,
+                "height": 0
+            }
+        },
+        {
+            "id": "30",
+            "sys_code": "200040",
+            "name": "湘云路停车场",
+            "position": {
+                "longitude": 120.21633439635035,
+                "latitude": 30.121826735507874,
+                "height": 0
+            }
+        },
+        {
+            "id": "31",
+            "sys_code": "200031",
+            "name": "罗坞桥停车场",
+            "position": {
+                "longitude": 120.2171733513129,
+                "latitude": 30.13555664844743,
+                "height": 0
+            }
+        },
+        {
+            "id": "32",
+            "sys_code": "200029",
+            "name": "窑影桥停车场",
+            "position": {
+                "longitude": 120.2137200971812,
+                "latitude": 30.126348117918404,
+                "height": 0
+            }
+        },
+        {
+            "id": "33",
+            "sys_code": "200046",
+            "name": "金融小镇B停车场",
+            "position": {
+                "longitude": 120.2154670049566,
+                "latitude": 30.123852391714017,
+                "height": 0
+            }
+        },
+        {
+            "id": "34",
+            "sys_code": "200045",
+            "name": "金融小镇A停车场",
+            "position": {
+                "longitude": 120.21639623949325,
+                "latitude": 30.123213182441805,
+                "height": 0
+            }
+        },
+        {
+            "id": "35",
+            "sys_code": "200058",
+            "name": "梦湖路停车场",
+            "position": {
+                "longitude": 120.19754474164161,
+                "latitude": 30.116512873754687,
+                "height": 0
+            }
+        }
+    ]
+}
+

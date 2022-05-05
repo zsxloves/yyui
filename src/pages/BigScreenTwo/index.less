@@ -1,0 +1,629 @@
+@import '~antd/es/style/themes/default.less';
+*{
+    padding:0;
+    margin:0;
+}
+p{
+    padding:0;
+    margin:0;
+}
+html{
+    overflow: hidden;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    background-size: 100% 100%;
+    background: url('./image/bgs.png');
+}
+.all{
+    font-size: 14rem;
+    color: #fff;
+    // background: url('./image/bgs.png');
+    // background-size: 100% 100%;
+    background: #000;
+    height: 100vh;
+}
+li{
+    list-style: none;
+}
+.clear{
+    clear:both;
+}
+.topContain{
+    background: #081A3D;
+    width: 100%;
+    height: 8.14%;
+}
+.topContain .contain{
+    height: 86.36%;
+    width: 100%;
+    background: url('./image/top.png');
+    background-size: 100% 100%;
+}
+.topContain .contain > div{
+    float: left;
+}
+.topContain .contain span{
+    color:#fff;
+}
+.topContain .contain .topCenter{
+    width: 73.44%;
+    text-align: center;
+    height: 100%;
+    margin-left:-0.8%;
+    padding-top: 0.4%;
+
+}
+.topContain .contain .topCenter .big{
+    font-size: 36rem;
+    line-height: 1;
+}
+.topContain .contain .topCenter .small{
+    font-size: 18rem;
+    
+}
+.topContain .contain .topCenter .section{
+    width: 128rem;
+    font-size: 14rem;
+    background: linear-gradient(to bottom,#00C1FF 0%,#0068FF 100%);
+    :global{
+        .ant-select-selector{
+            background: linear-gradient(to bottom,#00C1FF 0%,#0068FF 100%);
+            height: 32rem;
+            padding: 0 11rem;
+            .ant-select-selection-search{
+                right: 25rem;
+            }
+            input{
+                height: 30rem;
+                line-height: 30rem;
+            }
+            .ant-select-selection-item{
+                padding-right: 18rem;
+                line-height: 30rem;
+            }
+        }
+        .ant-select-arrow{
+            width: 12rem;
+            height: 12rem;
+            margin-top: -6rem;
+            right: 12rem;
+            svg{
+                width: 12rem;
+                height: 12rem;
+            }
+        }
+    }
+}
+:global{
+    .ant-select-dropdown{
+        padding: 4rem 0;
+        font-size: 14rem;
+        .rc-virtual-list-holder{
+            max-height: 104rem!important;
+        }
+        .ant-select-item{
+            font-size: 14rem;
+            line-height: 22rem;
+        }
+    }
+}
+.topContain .contain .topLeft{
+    width: 14.06%;
+    /* padding-left: 2%; */
+    font-size: 20rem;
+    text-align: right;
+    margin-top: 0.2%;
+}
+.topContain .contain .topLeft img{
+    width: 20rem;
+    height: 20rem;
+}
+.topContain .contain .topRight{
+    width: 12.5%;
+    /* padding-right: 2.6%; */
+    font-size: 20rem;
+    margin-top: 0.2%;
+}
+.containBody{
+    // height: 91.86%;
+    // width: 100%;
+    // position: relative;
+}
+.containBody .leftContain{
+    height: 992rem;
+    width: 382rem;
+    position: absolute;
+    left: 32rem;
+    top: 88rem;
+}
+.containBody .leftContain > div,.containBody .rightContain > div{
+    margin-bottom: 16rem;
+}
+.containBody .leftContain .firstCard,.containBody .rightContain .firstCard{
+    height: 25.2%;
+    /* overflow: hidden; */
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    background: rgba(48, 126, 233, 0.2);
+    border: 1px solid #337BE9;
+}
+.containBody .leftContain .firstCard .top,.containBody .rightContain .firstCard .top{
+    background: url('./image/liTop.png');
+    background-size: 100% 100%;
+    width: 130rem;
+    height: 38rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+.containBody .leftContain .firstCard .top span,.containBody .rightContain .firstCard .top span{
+    font-size: 16rem;
+    margin-left: 20rem;
+}
+.containBody .leftContain .firstCard .tpl,.containBody .rightContain .firstCard .tpl{
+    position: absolute;
+    top:-2px;
+    left: -2px;
+}
+.containBody .leftContain .firstCard .tpr,.containBody .rightContain .firstCard .tpr{
+    position: absolute;
+    top:-2px;
+    right: -2px;
+}
+.containBody .leftContain .firstCard .btl, .containBody .rightContain .firstCard .btl{
+    position: absolute;
+    bottom:-2px;
+    left: -2px;
+}
+.containBody .leftContain .firstCard .btr,.containBody .rightContain .firstCard .btr{
+    position: absolute;
+    bottom:-2px;
+    right: -2px;
+}
+.containBody .leftContain .tableCard{
+    overflow: hidden;
+}
+.containBody .leftContain .tableCard .content{
+    height: 210rem;
+}
+.containBody .tableCard .content{
+    height: 210rem;
+    width: 100%;
+    margin: 2% auto;
+    width: 92.4%;
+    overflow:hidden;
+}
+.containBody .tableCard .content::-webkit-scrollbar {
+    display: none;
+}
+.containBody .tableCard .content table{
+    width: 100%;
+    text-align: left;
+    height: 100%;
+    font-size: 14rem;
+    color: #fff;
+}
+.containBody .tableCard .content table tbody{
+    display:block;
+    height:90%;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.containBody .tableCard .content table tbody::-webkit-scrollbar{
+    display: none;
+}
+.containBody .tableCard .content table thead,.containBody .tableCard .content table tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+.containBody .tableCard .content table tbody tr:nth-child(odd){
+    background: rgba(43, 115, 221, 0.2);
+}
+.containBody .tableCard .content table th {
+    font-weight: 400;
+    color: #00DBFF;
+}
+.containBody .leftContain .fourCard{
+    height: 173rem;
+}
+.containBody .leftContain .firstCard.fourCard .top{
+    width: 186rem;
+}
+.containBody .leftContain .fourCard .contain{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 4rem;
+}
+.containBody .leftContain .fourCard .contain li{
+    width: 112rem;
+    height: 112rem;
+    background: rgba(0, 149, 254, 0.1);
+    box-shadow: 0px 0px 9px 0px #0095FE;
+    border: 1px solid #3175D7;
+    float: left;
+    margin: 12rem 5rem 0;
+    font-size: 13rem;
+}
+.containBody .leftContain .fourCard .contain li img{
+    width: 24rem;
+    height: 24rem;
+    margin: 14rem 0 4rem 0;
+}
+.containBody .leftContain .fourCard .contain li .number{
+    font-size: 18rem;
+    font-family: Helvetica;
+    color: #E1D825;
+    margin: 2rem 0;
+}
+.containBody .leftContain .fourCard .contain li .twospan{
+    line-height: 1.3;
+}
+.containBody .leftContain .fourCard .contain li .twospan span{
+    display: inline-block;
+}
+.containBody .rightContain{
+    height: 992rem;
+    width: 382rem;
+    position: absolute;
+    right: 32rem;
+    top: 88rem;
+}
+.containBody .rightContain .rightOneCard{
+    height: 176rem;
+}
+.containBody .rightContain .rightOneCard .top{
+    width: 96rem;
+}
+.containBody .rightContain .rightOneCard .contain .content {
+    margin-top: 16rem;
+}
+.containBody .rightContain .rightOneCard .contain .content li{
+    float: left;
+    background: rgba(0, 149, 254, 0.1);
+    box-shadow: 0px 0px 9px 0px #0095FE;
+    border: 1px solid #3175D7;
+}
+.containBody .rightContain .rightOneCard .contain .content .oneLi{
+    width: 146rem;
+    height: 62rem;
+    margin: 0 10rem 0 13rem;
+    text-align: center;
+}
+.containBody .rightContain .rightOneCard .contain .content .oneLi .number{
+    font-size: 18rem;
+    font-family: Helvetica;
+    color: #E1D825;
+    margin: 4rem 0 0 0;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi{
+    width: 198rem;
+    height: 62rem;
+    margin: 0;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 120rem;
+    line-height: 62rem;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 120rem;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .titleNumber{
+    float: left;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .titleNumber .oneP{
+    margin: 6rem 0 4rem;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .titleNumber span{
+    color: rgba(255,255,255,.5);
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .titleNumber .outNum{
+    font-family: Helvetica;
+    color: #FF5E24;
+    margin: 0 4rem 0 6rem;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .titleNumber .inNum{
+    font-family: Helvetica;
+    color: #2AFFA6;
+    margin: 0 4rem 0 6rem;
+}
+.containBody .rightContain .rightOneCard .contain .content .twoLi .titleNumber img{
+    width: 7rem;
+    height: 7rem;
+}
+.containBody .rightContain .rightOneCard .contain .bom {
+    margin-left: 13rem;
+}
+.containBody .rightContain .rightOneCard .contain .bom li{    
+    margin: 10rem 13rem 0;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.containBody .rightContain .rightOneCard .contain .bom li .numberOne{
+    font-size: 16rem;
+    font-family: Helvetica;
+    color: #38FDFF;
+}
+.containBody .rightContain .rightThreeCard.tableCard{
+    height: 182rem;
+}
+.containBody .tableCard.rightThreeCard .content{
+    height: 120rem;
+}
+.containBody .tableCard.rightThreeCard .content table tbody{
+    height: 90rem;
+}
+.containBody .rightContain .rightThreeCard .checkBtn {
+    width: 80rem;
+    height: 28rem;
+    line-height: 28rem;
+    position: absolute;
+    background: rgba(50, 146, 254, 0.1);
+    box-shadow: 0px 0px 12px 0px #3292FE inset;
+    border: 1px solid #3292FE;
+    right: 12rem;
+    top: 12rem;
+    text-align: center;
+}
+.containBody .rightContain .rightFourCard.tableCard{
+    height: 208rem;
+}
+
+.containBody .tableCard.rightFourCard .content{
+    height: 150rem;
+}
+.containBody .tableCard.rightFourCard .content table tbody{
+    height: 120rem;
+}
+.containBody .rightContain .rightFourCard .checkBtn {
+    width: 80rem;
+    height: 28rem;
+    line-height: 28rem;
+    position: absolute;
+    background: rgba(50, 146, 254, 0.1);
+    box-shadow: 0px 0px 12px 0px #3292FE inset;
+    border: 1px solid #3292FE;
+    right: 12rem;
+    top: 12rem;
+    text-align: center;
+}
+.containBody .rightContain .rightFiveCard{
+    height: 173rem;
+}
+.containBody .rightContain .rightFiveCard .contain{
+    margin-top: 16rem;
+}
+.containBody .rightContain .rightFiveCard .contain li{
+    float: left;
+    background: rgba(0, 149, 254, 0.1);
+    box-shadow: 0px 0px 9px 0px #0095FE;
+    border: 1px solid #3175D7;
+}
+.containBody .rightContain .rightFiveCard .contain .liOne{
+    text-align: center;
+    width: 98rem;
+    height: 107rem;
+    margin: 0 10rem 0 12rem;
+}
+.containBody .rightContain .rightFiveCard .contain .liOne .number{
+    font-size: 18px;
+    font-family: Helvetica;
+    color: #E1D825;
+    margin: 26rem 0 8rem;
+}
+.containBody .rightContain .rightFiveCard .contain .liTwo{
+    height: 106rem;
+    width: 246rem;
+}
+.containBody .rightContain .rightFiveCard .contain .liTwo img{
+    width: 100%;
+    height: 100%;
+}.iconPf{
+    width: 123rem;
+    height: 234rem;
+    background: rgba(2, 18, 38, 0.6);
+    box-shadow: 0px 0px 9px 0px rgba(108, 197, 236, 0.5);
+    border-radius: 4px;
+    border: 1px solid #4287FF;
+    position: absolute;
+    bottom: 245rem;
+    right: 448rem;
+}
+.iconPf li{
+    margin: 4rem 0 0 0;
+    width: 100%;
+}
+.iconPf li img{
+    margin: 0 12rem 0 14rem;
+    vertical-align: middle;
+    width: 16rem;
+    height: 16rem;
+}
+.iconPf li img.bc{
+    width: 23rem;
+    height: 18rem;
+    margin-right: 5rem;
+}
+.iconPf li span{
+    vertical-align: middle;
+}
+.carmeas{
+    position: absolute;
+    bottom: 36rem;
+    right: 475rem;
+    width: 966rem;
+    height: 180rem;
+    background: url('./image/cameraBg.png');
+    background-size: 100% 100%;
+    border: 1px solid #4287FF;
+}
+.carmeas .tpName{
+    width: 212rem;
+    height: 30rem;
+    text-align: center;
+    line-height: 30rem;
+    margin-left: 377rem;
+    margin-bottom: 18rem;
+}
+.carmeas .clickp{
+    width: 32rem;
+    height: 90rem;
+    text-align: center;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carmeas .clickp img{
+    width: 10rem;
+    height: 16rem;
+}
+.carmeas li{
+    float: left;
+    margin-right: 18rem;
+}
+.carmeas li .sp{
+    width: 135rem;
+    height: 90rem;
+    text-align: center;
+    border: 1px solid #37ABFA;
+    margin-bottom: 10rem;
+}
+.carmeas li .sp img{
+    height: 35rem;
+    width: 35rem;
+    margin-top: 27rem;
+}
+.carmeas li .text{
+    margin-left: 21rem;
+    width: 94rem;
+    height: 22rem;
+    background-size: 100% 100%;
+    background: url('./image/carmeaText.png');
+    text-align: center;
+    line-height: 22rem;
+}
+.carmeas li .text span{
+    font-size: 12rem;
+    color: #fff;
+}
+.policeEcharts{
+    position: absolute;
+    top: 112rem;
+    right: 450rem;
+}
+.allNums{
+    width: 48rem;
+    height: 48rem;
+    background: #FF4F4F;
+    box-shadow: 0px -5px 43px 0px #FF4F4F;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    text-align: center;
+    font-size: 16rem;
+    line-height: 46rem;
+    cursor: pointer;
+}
+.allNums .nums{
+    position: absolute;
+    font-size: 12rem;
+    display: inline-block;
+    border-radius: 7rem;
+    background: #fff;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FF4F4F;
+    line-height: 16rem;
+    height: 16rem;
+    top: -8rem;
+    right: -5rem;
+    padding: 0 5rem;
+}
+.policeEcharts .tableData{
+    width: 552rem;
+    height: 261rem;
+    background: rgba(64, 16, 16, 0.57);
+    box-shadow: 0px 0px 9px 0px rgba(255, 79, 79, 0.43);
+    border-radius: 6rem;
+    border: 1px solid #A62424;
+    padding: 12rem 0 0 14rem;
+    float: right;
+    margin-right: 20rem;
+    font-size: 16rem;
+    display: none;
+}
+.policeEcharts .tableData table tr{
+    height: 30rem;
+    line-height: 30rem;
+}
+.policeEcharts .tableData.shows{
+    display: block;
+}
+.tableData.shows{
+    display: block!important;
+}
+.policeEcharts .tableData .top .imgs{
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    background: #FF4F4F;
+    box-shadow: 0px 0px 8px 0px #FF4F4F;
+    transform: rotate(45deg);
+    margin-right: 12rem;
+}
+.policeEcharts .tableData .leftData{
+    width: 200rem;
+    height: 210rem;
+}
+.policeEcharts .tableData .leftData .content{
+    width: 100%;
+    height: 100%;
+}
+.containBody .tableCard.leftData .content table tr td:nth-child(1),.containBody .tableCard.leftData .content table th:nth-child(1){
+    width: 40%;
+}
+.containBody .tableCard.leftData .content table tr td:nth-child(2),.containBody .tableCard.leftData .content table th:nth-child(2){
+    width: 30%;
+}
+.containBody .tableCard.leftData .content table tr td:nth-child(3),.containBody .tableCard.leftData .content table th:nth-child(3){
+    width: 40%;
+}
+.containBody .tableCard.leftData  .content table tbody tr:nth-child(odd){
+    background: rgba(255, 79, 79, 0.1);
+}
+.containBody .tableCard.leftData  .content table th {
+    font-weight: 400;
+    color: rgba(255, 79, 79, 1);
+}
+.firstTb>div:nth-child(1)>div,.firstTb>div:nth-child(2)>div>div{
+    padding: 0 0 0 2rem!important;
+}
+.secondTb>div:nth-child(1)>div,.secondTb>div:nth-child(2)>div>div{
+    padding: 0 2rem!important;
+}
+.threeTb>div:nth-child(1)>div,.threeTb>div:nth-child(2)>div>div{
+    padding: 0 2rem!important;
+}
+.fourTb>div:nth-child(1)>div,.fourTb>div:nth-child(2)>div>div{
+    padding: 0 6rem!important;
+}
+.fiveTb>div:nth-child(1)>div,.fiveTb>div:nth-child(2)>div>div{
+    padding: 0 6rem!important;
+}
+.firstTb span,.firstTb div,.secondTb span,.secondTb div,.threeTb span,.threeTb div,.fourTb span,.fourTb div,.fiveTb span,.fiveTb div{
+    font-size:13rem!important;
+}

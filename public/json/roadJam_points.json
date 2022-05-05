@@ -1,0 +1,52 @@
+{
+    "code":200,
+    "result":[
+        {
+            "state": {
+                "link_id": 137,
+                "cnts": 0,
+                "free_speed": 50.89,
+                "delay_index": 1.0,
+                "time_point": "2021-11-15 10:50:00",
+                "avg_speed": 50.89,
+                "state_index": 1.0
+            },
+            "info": {
+                "road_dir": "观澜路(北向南)",
+                "end_lng": 120.230177,
+                "end_lat_wgs84": 30.2392,
+                "road_dir_real": "观澜路(北向南)",
+                "end_lat": 30.236751,
+                "end_node": "博奥路-观澜路",
+                "end_lng_wgs84": 120.225681,
+                "start_lat": 30.239527,
+                "link_length": 406,
+                "link_sequence_wgs84": null,
+                "start_lng": 120.233031,
+                "link_name": "观澜路（金鸡路-博奥路）",
+                "link_id": 137,
+                "start_no_dir": "南向北",
+                "link_rank": 1,
+                "start_node": "观澜路-金鸡路",
+                "road_name": "观澜路",
+                "link_sequence": null,
+                "end_dir": "北向南",
+                "start_lat_wgs84": 30.241978,
+                "start_lng_wgs84": 120.228539,
+                "position": [
+                    {
+                        "longitude": "120.228467",
+                        "latitude": "30.242024"
+                    },{
+                        "longitude": "120.225681",
+                        "latitude": "30.239200"
+                    },
+                    {
+                        "longitude": "120.234890",
+                        "latitude": "30.233756"
+                    }
+                ]
+            }
+        }
+    ]
+}
